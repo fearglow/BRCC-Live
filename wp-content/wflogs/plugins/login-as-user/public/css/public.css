@@ -1,0 +1,147 @@
+/* ======================================================
+ # Login as User for WordPress - v1.5.2 (free version)
+ # -------------------------------------------------------
+ # For WordPress
+ # Author: Web357
+ # Copyright © 2014-2024 Web357. All rights reserved.
+ # License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+ # Website: https://www.web357.com/product/login-as-user-wordpress-plugin
+ # Demo: https://demo-wordpress.web357.com/try-the-login-as-a-user-wordpress-plugin/
+ # Support: https://www.web357.com/support
+ # Last modified: Sunday 30 June 2024, 10:34:39 PM
+ ========================================================= */
+
+.login-as-user {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.login-as-user-top {
+    top: 0;
+}
+
+.login-as-user-bottom {
+    bottom: 0;
+}
+
+.login-as-user-inner {
+    height: auto;
+    width: 100%;
+    background: #fcfcfc;
+    color: #000;
+}
+
+.login-as-user-top .login-as-user-inner {
+    border-bottom: 1px solid #ccc;
+}
+
+.login-as-user-bottom .login-as-user-inner {
+    border-top: 2px solid #ccc;
+}
+
+.login-as-user-content {
+    padding: 5px 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.login-as-user-content * {
+    margin: 0;
+    padding: 0;
+}
+
+.login-as-user-msg {
+    padding-top: 15px;
+}
+
+.login-as-user-content a:hover {
+    background: none !important;
+}
+
+.button.w357-login-as-user-btn {
+    display: inline-block !important;
+    padding: 6px 12px !important;
+    border-radius: 4px !important;
+    border: 0 !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+    background: #1f6538 !important;
+    color: #fff !important;
+    margin: 15px 0;
+}
+
+.button.w357-login-as-user-btn:hover,
+.button.w357-login-as-user-btn:focus,
+.button.w357-login-as-user-btn:active {
+    background: #924017 !important;
+    color: #fff !important;
+}
+
+@media print {
+    .login-as-user,
+    .login-as-user * {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .login-as-user-content {
+        font-size: 80%;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Back to Admin Dashboard */
+#wpadminbar #wp-admin-bar-lau-back-to-admin-dashboard a.ab-item {
+    white-space: nowrap;
+}
+#wpadminbar #wp-admin-bar-lau-back-to-admin-dashboard > .ab-item:before {
+    content: '\f14a';
+    top: 2px;
+}
+
+.wp-admin
+    #wpadminbar
+    #wp-admin-bar-lau-back-to-admin-dashboard
+    > .ab-item:before {
+    content: '\f14a';
+}
+
+@media screen and (max-width: 782px) {
+    #wpadminbar #wp-admin-bar-lau-back-to-admin-dashboard a.ab-item {
+        text-overflow: clip;
+    }
+    #wpadminbar #wp-admin-bar-lau-back-to-admin-dashboard > .ab-item {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 52px;
+        padding: 0;
+        color: #a7aaad;
+        position: relative;
+    }
+
+    #wpadminbar #wp-admin-bar-lau-back-to-admin-dashboard > .ab-item:before {
+        display: block;
+        text-indent: 0;
+        font: normal 32px/1 dashicons;
+        speak: never;
+        top: 7px;
+        width: 52px;
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    #wpadminbar li#wp-admin-bar-lau-back-to-admin-dashboard {
+        display: block;
+    }
+}
+@media screen and (max-width: 782px) {
+    #wpadminbar #wp-admin-bar-lau-back-to-admin-dashboard {
+        position: static;
+    }
+}

@@ -1,0 +1,39 @@
+.buttonDiv, .buttonDivSignUp {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #232323;
+  position: relative;
+  display: block;
+}
+.buttonDiv .nsm7Bb-HzV7m-LgbsSe, .buttonDivSignUp .nsm7Bb-HzV7m-LgbsSe {
+  height: unset;
+  padding: 6px 15px;
+  background: transparent;
+}
+
+.fb_iframe_widget {
+  width: 100%;
+  background: linear-gradient(#4c69ba, #3b55a0);
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.fb_iframe_widget iframe body ._5h0c._5h0d {
+  max-width: 100% !important;
+}
+
+._5h0c._5h0d {
+  max-width: 100% !important;
+}
+
+.st-login-facebook {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

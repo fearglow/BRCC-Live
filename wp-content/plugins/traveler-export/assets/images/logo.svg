@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="48" viewBox="0 0 200 48">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#FFF" font-family="Poppins-SemiBold, Poppins" font-size="18" font-weight="500">
+            <tspan x="53" y="30">Export Bookings</tspan>
+        </text>
+        <g fill-rule="nonzero">
+            <path fill="#B1FFFF" d="M29.984 44L35 39.924V44h-5.016zM4 44V3h24.936L35 9.089v12.613l-6.167-5.013v8.054H11.68v11.452h17.153V44H4z"/>
+            <path fill="#FFF" d="M43 31.292l-4.43-3.548V8.156L30.325 0H0v48h38.57V34.838L43 31.292zm-2.41 0l-8.262 6.614v-4.812H14.97v-4.292h17.358v-4.125l8.262 6.615zm-3.537 4.76V46.5H1.516v-45H29.7l7.357 7.279V26.53l-6.241-4.998v5.77H13.454v7.29h17.358v6.46l6.241-5z"/>
+        </g>
+    </g>
+</svg>

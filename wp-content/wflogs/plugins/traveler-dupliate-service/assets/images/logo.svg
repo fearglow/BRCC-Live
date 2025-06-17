@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="267" height="36" viewBox="0 0 267 36">
+    <g fill="#FFF" fill-rule="evenodd">
+        <text font-family="Poppins-SemiBold, Poppins" font-size="18" font-weight="500">
+            <tspan x="51" y="23">Duplicate Service Tools</tspan>
+        </text>
+        <g fill-rule="nonzero">
+            <path d="M25.92 0H1.44C.645 0 0 .645 0 1.44v24.48c0 .795.645 1.44 1.44 1.44h24.48c.795 0 1.44-.645 1.44-1.44V1.44c0-.795-.645-1.44-1.44-1.44zm-1.44 24.48H2.88V2.88h21.6v21.6zM33.12 29.52v3.6h-3.6V36h5.04c.795 0 1.44-.645 1.44-1.44v-5.04h-2.88zM18.446 33.12H26.193V36H18.446zM11.52 33.12v-3.6H8.64v5.04c0 .795.645 1.44 1.44 1.44h5.04v-2.88h-3.6zM34.56 8.64h-5.04v2.88h3.6v3.6H36v-5.04c0-.795-.645-1.44-1.44-1.44zM33.12 18.446H36V26.193H33.12z"/>
+        </g>
+    </g>
+</svg>

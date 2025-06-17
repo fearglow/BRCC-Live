@@ -1,0 +1,134 @@
+.infor-st-setting #data_history_book td a.btn-export-booking {
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
+.invoice-booking-detail {
+  border: 1px solid #dddddd;
+}
+.invoice-booking-detail .booking-detail-title .thumb {
+  width: 50%;
+}
+.invoice-booking-detail .booking-detail-title .info-title {
+  padding-left: 20px;
+}
+.invoice-booking-detail .booking-detail-title .info-title .title {
+  font-size: 32px;
+}
+
+.page-template-template-user .page-content table.table-booking-history tr td a.btn-export-booking {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  #stt-history-popup .modal-dialog {
+    margin: 100px auto;
+  }
+}
+#stt-history-popup .modal-dialog .modal-content .export-header {
+  padding: 30px 20px;
+  background: #5191FA;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+#stt-history-popup .modal-dialog .modal-content .export-header .close {
+  opacity: 1;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body {
+  padding: 30px;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .filter-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #111111;
+  margin-bottom: 15px;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper {
+  width: 50%;
+  position: relative;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper .check-in-wrapper {
+  cursor: pointer;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper .check-in-wrapper label {
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper .check-in-wrapper .date {
+  display: inline-block;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #dddddd;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper .check-in-wrapper .render, #stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper .check-in-wrapper span {
+  color: #5191fa;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper .check-in-wrapper .check-in-render {
+  display: inline-block;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper .check-in-wrapper .check-out-render {
+  display: inline-block;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .date-history-swapper .check-in-out {
+  opacity: 0;
+  position: absolute;
+  left: 0px;
+  cursor: pointer;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .status-swapper {
+  width: 50%;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .status-swapper label {
+  color: #5a5a5a;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .status-swapper .form-select-2 {
+  width: 50%;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .status-swapper .form-select-2 .select2-choice {
+  border: none;
+  background-image: none;
+  border-bottom: 1px solid #dddddd;
+  background-color: unset;
+  color: #5191fa;
+  border-radius: unset;
+  padding-left: 0px;
+  padding-bottom: 27px;
+  box-shadow: unset;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .status-swapper .form-select-2 .select2-choice:focus {
+  outline: unset;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-body .export-content .status-swapper .form-select-2 .select2-choice .select2-arrow {
+  display: none;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-footer {
+  border-top: none;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+#stt-history-popup .modal-dialog .modal-content .modal-footer .stt-export-button {
+  padding: 5px 20px;
+  font-size: 15px;
+}
+
+#select2-drop.stt-status-select {
+  border: none;
+}
+#select2-drop.stt-status-select .select2-search {
+  display: none;
+}
+#select2-drop.stt-status-select .select2-results .select2-highlighted {
+  background: #f5f4f7;
+  color: #000;
+}
+
+/*# sourceMappingURL=traveler-export.css.map */

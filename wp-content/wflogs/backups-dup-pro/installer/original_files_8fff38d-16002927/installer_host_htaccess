@@ -1,0 +1,41 @@
+###########################################################
+## BEGIN Important Service Information (Added By DreamHost)
+###########################################################
+#
+# Your DreamPress service runs on the NGINX web server. Thich means that
+# any `.htaccess` rules entered below will no longer work on your site.
+# Don't panic! We've configured our NGINX setup to be compatible with a
+# number of plugins. This means that custom `.htaccess` rules shouldn't be
+# necessary for most sites.
+#
+# Should you wish to set up redirects we encourage you to use this plugin:
+#     https://wordpress.org/plugins/safe-redirect-manager/
+#
+# If you need to set up a rule to limit access to your site, our support
+# team is available to help:
+#     https://panel.dreamhost.com/?tree=support.msg
+#
+#########################################################
+## END Important Service Information (Added By DreamHost)
+#########################################################
+
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+RewriteEngine on
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule ^(.*) – [E=HTTP_AUTHORIZATION:%1]
+</IfModule>
+
+# END WordPress

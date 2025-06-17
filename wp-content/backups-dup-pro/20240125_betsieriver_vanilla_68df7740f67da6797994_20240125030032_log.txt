@@ -1,0 +1,205 @@
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2024-01-25 03:01:22
+NOTICE: Do NOT post to public sites or forums 
+PACKAGE CREATION START
+********************************************************************************
+********************************************************************************
+VERSION:	4.5.15
+WORDPRESS:	6.4.2
+PHP INFO:	8.2.12 | SAPI: cgi-fcgi
+SERVER:		Apache 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	86MB
+ARCHIVE ENGINE: Shell Zip
+PACKAGE COMPONENTS:
+	Database,
+	Core,
+	Plugins,
+	Themes,
+	Media,
+	Other
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (query size limit - 131072 )
+
+TABLES: total: 80 | filtered:0 | create:80
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_34m5re_users NUM ROWS: 1
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_34m5re_users NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:1] wp_34m5re_usermeta NUM ROWS: 24
+INSERT ROWS TABLE[INDEX:2] wp_34m5re_actionscheduler_actions NUM ROWS: 7
+INSERT ROWS TABLE[INDEX:3] wp_34m5re_actionscheduler_claims NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:4] wp_34m5re_actionscheduler_groups NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:5] wp_34m5re_actionscheduler_logs NUM ROWS: 15
+INSERT ROWS TABLE[INDEX:6] wp_34m5re_commentmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:7] wp_34m5re_comments NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:8] wp_34m5re_duplicator_backups NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:9] wp_34m5re_duplicator_entities NUM ROWS: 8
+INSERT ROWS TABLE[INDEX:10] wp_34m5re_e_events NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:11] wp_34m5re_ewwwio_images NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:12] wp_34m5re_ewwwio_queue NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:13] wp_34m5re_hotel_room NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:14] wp_34m5re_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:15] wp_34m5re_options NUM ROWS: 604
+INSERT ROWS TABLE[INDEX:16] wp_34m5re_postmeta NUM ROWS: 29
+INSERT ROWS TABLE[INDEX:17] wp_34m5re_posts NUM ROWS: 16
+INSERT ROWS TABLE[INDEX:18] wp_34m5re_st_activity NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:19] wp_34m5re_st_activity_availability NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:20] wp_34m5re_st_availability NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:21] wp_34m5re_st_cars NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:22] wp_34m5re_st_cronjob_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:23] wp_34m5re_st_form_builder NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:24] wp_34m5re_st_hotel NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:25] wp_34m5re_st_inbox NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:26] wp_34m5re_st_journey_car NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:27] wp_34m5re_st_location_nested NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:28] wp_34m5re_st_location_relationships NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:29] wp_34m5re_st_member_packages NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:30] wp_34m5re_st_member_packages_order NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:31] wp_34m5re_st_order_item_meta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:32] wp_34m5re_st_price NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:33] wp_34m5re_st_properties NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:34] wp_34m5re_st_rental NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:35] wp_34m5re_st_rental_availability NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:36] wp_34m5re_st_room_availability NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:37] wp_34m5re_st_tour_availability NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:38] wp_34m5re_st_tours NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:39] wp_34m5re_st_withdrawal NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:40] wp_34m5re_term_relationships NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:41] wp_34m5re_term_taxonomy NUM ROWS: 15
+INSERT ROWS TABLE[INDEX:42] wp_34m5re_termmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:43] wp_34m5re_terms NUM ROWS: 15
+INSERT ROWS TABLE[INDEX:44] wp_34m5re_wc_admin_note_actions NUM ROWS: 95
+INSERT ROWS TABLE[INDEX:45] wp_34m5re_wc_admin_notes NUM ROWS: 63
+INSERT ROWS TABLE[INDEX:46] wp_34m5re_wc_category_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:47] wp_34m5re_wc_customer_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:48] wp_34m5re_wc_download_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:49] wp_34m5re_wc_order_addresses NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:50] wp_34m5re_wc_order_coupon_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:51] wp_34m5re_wc_order_operational_data NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:52] wp_34m5re_wc_order_product_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:53] wp_34m5re_wc_order_stats NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:54] wp_34m5re_wc_order_tax_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:55] wp_34m5re_wc_orders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:56] wp_34m5re_wc_orders_meta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:57] wp_34m5re_wc_product_attributes_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:58] wp_34m5re_wc_product_download_directories NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:59] wp_34m5re_wc_product_meta_lookup NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:60] wp_34m5re_wc_rate_limits NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:61] wp_34m5re_wc_reserved_stock NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:62] wp_34m5re_wc_tax_rate_classes NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:63] wp_34m5re_wc_webhooks NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:64] wp_34m5re_woocommerce_api_keys NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:65] wp_34m5re_woocommerce_attribute_taxonomies NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:66] wp_34m5re_woocommerce_downloadable_product_permissions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:67] wp_34m5re_woocommerce_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:68] wp_34m5re_woocommerce_order_itemmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:69] wp_34m5re_woocommerce_order_items NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:70] wp_34m5re_woocommerce_payment_tokenmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:71] wp_34m5re_woocommerce_payment_tokens NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:72] wp_34m5re_woocommerce_sessions NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:73] wp_34m5re_woocommerce_shipping_zone_locations NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:74] wp_34m5re_woocommerce_shipping_zone_methods NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:75] wp_34m5re_woocommerce_shipping_zones NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:76] wp_34m5re_woocommerce_tax_rate_locations NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:77] wp_34m5re_woocommerce_tax_rates NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:78] wp_34m5re_wpmailsmtp_debug_events NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:79] wp_34m5re_wpmailsmtp_tasks_meta NUM ROWS: 1
+SQL FILE SIZE CHECK OK, SIZE: 2894485
+SQL CREATED: 20240125_betsieriver_vanilla_68df7740f67da6797994_20240125030032_database.sql
+SQL FILE SIZE: 2.76MB
+SQL FILE TIME: 2024-01-25 03:01:42
+SQL RUNTIME: 19.830 sec.
+MEMORY STACK: 86MB
+
+********************************************************************************
+ARCHIVE  Type=ZIP Mode=Shell
+********************************************************************************
+ARCHIVE DIR:  /home/dh_du973r/brcampground.com
+ARCHIVE FILE: 20240125_betsieriver_vanilla_68df7740f67da6797994_20240125030032_archive.zip
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	374.99MB
+STATS:	Dirs 3,477 | Files 19,457 | Total 22,934
+SHELL COMMAND: cd '/home/dh_du973r/brcampground.com' && zip -6 -rq '/home/dh_du973r/brcampground.com/wp-content/backups-dup-pro/tmp/20240125_betsieriver_vanilla_68df7740f67da6797994_20240125030032_archive.zip' ./ -x .opcache**\* .opcache .tmb**\* .tmb wp\-content/ai1wm\-backups**\* wp\-content/ai1wm\-backups wp\-content/backups\-dup\-lite**\* wp\-content/backups\-dup\-lite wp\-content/backups\-dup\-pro/**\* wp\-content/backups\-dup\-pro/ wp\-content/backupwordpress**\* wp\-content/backupwordpress wp\-content/bps\-backup**\* wp\-content/bps\-backup wp\-content/cache/**\* wp\-content/cache/ wp\-content/content/cache**\* wp\-content/content/cache wp\-content/contents/cache**\* wp\-content/contents/cache wp\-content/infinitewp/backups**\* wp\-content/infinitewp/backups wp\-content/managewp/backups**\* wp\-content/managewp/backups wp\-content/old\-cache**\* wp\-content/old\-cache wp\-content/plugins/all\-in\-one\-wp\-migration/storage**\* wp\-content/plugins/all\-in\-one\-wp\-migration/storage wp\-content/plugins/really\-simple\-captcha/tmp**\* wp\-content/plugins/really\-simple\-captcha/tmp wp\-content/plugins/wordfence/tmp**\* wp\-content/plugins/wordfence/tmp wp\-content/updraft**\* wp\-content/updraft wp\-content/uploads/aiowps_backups**\* wp\-content/uploads/aiowps_backups wp\-content/uploads/backup\-guard**\* wp\-content/uploads/backup\-guard wp\-content/uploads/backupbuddy_backups**\* wp\-content/uploads/backupbuddy_backups wp\-content/uploads/backupbuddy_temp**\* wp\-content/uploads/backupbuddy_temp wp\-content/uploads/ithemes\-security/backups**\* wp\-content/uploads/ithemes\-security/backups wp\-content/uploads/mainwp/backup**\* wp\-content/uploads/mainwp/backup wp\-content/uploads/pb_backupbuddy**\* wp\-content/uploads/pb_backupbuddy wp\-content/uploads/snapshots**\* wp\-content/uploads/snapshots wp\-content/uploads/sucuri**\* wp\-content/uploads/sucuri wp\-content/uploads/wp\-clone**\* wp\-content/uploads/wp\-clone wp\-content/uploads/wp_all_backup**\* wp\-content/uploads/wp_all_backup wp\-content/uploads/wpbackitup_backups**\* wp\-content/uploads/wpbackitup_backups wp\-content/wfcache**\* wp\-content/wfcache wp\-content/wishlist\-backup**\* wp\-content/wishlist\-backup wp\-content/wpvividbackups**\* wp\-content/wpvividbackups wp\-snapshots**\* wp\-snapshots "../../../../.DS_Store" ".htaccess" ".user.ini" "php.ini" "web.config" "wp-config.php" "wp-content/debug.log" "../../../../dbcache" "../../../../debug_log" "../../../../error_log" "../../../../objectcache" "../../../../pgcache" "../../../../ws_ftp.log" wp-content/backups-dup-pro/**\*  2>&1
+COMPRESSED SIZE: 141.22MB
+ARCHIVE RUNTIME: 36.655 sec.
+MEMORY STACK: 90MB
+EXECUTING SHELL COMMAND
+SHELL COMMAND: cd '/home/dh_du973r/brcampground.com/wp-content/backups-dup-pro/tmp/extras/' && zip -6 -g -rq '/home/dh_du973r/brcampground.com/wp-content/backups-dup-pro/tmp/20240125_betsieriver_vanilla_68df7740f67da6797994_20240125030032_archive.zip' ./* ./.[^.]* -x "index.php"
+CHECK FILES Array
+(
+    [0] => dup-installer/api/class.api.php
+    [1] => dup-installer/assets/index.php
+    [2] => dup-installer/classes/index.php
+    [3] => dup-installer/ctrls/index.php
+    [4] => dup-installer/src/Utils/Autoloader.php
+    [5] => dup-installer/templates/default/page-help.php
+    [6] => dup-installer/main.installer.php
+    [7] => 20240125_betsieriver_vanilla_68df7740f67da6797994_20240125030032_installer-backup.php
+    [8] => dup-installer/index.php
+    [9] => dup-installer/libs/Snap/index.php
+    [10] => dup-installer/assets/js/duplicator-tooltip.js
+    [11] => dup-installer/assets/js/tippy/index.php
+    [12] => dup-installer/assets/font-awesome/index.php
+    [13] => dup-installer/dup-archive__68df774-25030032.txt
+    [14] => dup-installer/dup-scan__68df774-25030032.json
+    [15] => dup-installer/dup-scanned-files__68df774-25030032.txt
+    [16] => dup-installer/dup-scanned-dirs__68df774-25030032.txt
+    [17] => dup-installer/dup-manual-extract__68df774-25030032
+    [18] => dup-installer/dup-database__68df774-25030032.sql
+)
+
+Executing extra count string unzip -Z1 '/home/dh_du973r/brcampground.com/wp-content/backups-dup-pro/tmp/20240125_betsieriver_vanilla_68df7740f67da6797994_20240125030032_archive.zip' | grep '^\(dup-installer/api/class.api.php\|dup-installer/assets/index.php\|dup-installer/classes/index.php\|dup-installer/ctrls/index.php\|dup-installer/src/Utils/Autoloader.php\|dup-installer/templates/default/page-help.php\|dup-installer/main.installer.php\|20240125_betsieriver_vanilla_68df7740f67da6797994_20240125030032_installer-backup.php\|dup-installer/index.php\|dup-installer/libs/Snap/index.php\|dup-installer/assets/js/duplicator-tooltip.js\|dup-installer/assets/js/tippy/index.php\|dup-installer/assets/font-awesome/index.php\|dup-installer/dup-archive__68df774-25030032.txt\|dup-installer/dup-scan__68df774-25030032.json\|dup-installer/dup-scanned-files__68df774-25030032.txt\|dup-installer/dup-scanned-dirs__68df774-25030032.txt\|dup-installer/dup-manual-extract__68df774-25030032\|dup-installer/dup-database__68df774-25030032.sql\)' | wc -l
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+DEFAULT LOCAL: Default, /home/dh_du973r/brcampground.com/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 2.76MB
+INSTALLER FILE: 128.86KB
+ARCHIVE FILE: 144.31MB 
+EXPECTED FILE/DIRECTORY COUNT: 22,934
+ACTUAL FILE/DIRECTORY COUNT: 22,935
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 64.792 sec.
+PEAK PHP MEMORY USED: 86MB
+DONE PROCESSING => 20240125_betsieriver_vanilla 2024-01-25 03:02:27
+
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+** DEFAULT LOCAL [Name: Default] [ID: 3] **
+SUCCESS: package is in default location: /home/dh_du973r/brcampground.com/wp-content/backups-dup-pro
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+STORAGE PROCESSING COMPLETED
+Attempting to purge old packages at Default[ID: 3] type: Default Local
+Purge of old packages at Default[ID: 3] storage completed. Num packages deleted 0
+
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE CREATION OR MANUAL STORAGE TRANSFER END: 2024-01-25 03:02:33
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+********************************************************************************
+
+[PHP ERR][ISSUE] MSG:Using ${var} in strings is deprecated, use {$var} instead [CODE:8192|FILE:/home/dh_du973r/brcampground.com/wp-content/plugins/st-option-tree/includes/ot-functions-admin.php|LINE:1045]
+[PHP ERR][ISSUE] MSG:Using ${var} in strings is deprecated, use {$var} instead [CODE:8192|FILE:/home/dh_du973r/brcampground.com/wp-content/plugins/st-option-tree/includes/ot-functions-admin.php|LINE:1045]

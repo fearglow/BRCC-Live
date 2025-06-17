@@ -1,0 +1,129 @@
+.duplicate-popup{
+    z-index: 1;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    .duplicate-wrapper{
+        max-width: 600px;
+        margin: auto;
+        margin-top: 15%;
+        .duplicate-content{
+            background-color: #fff;
+            .duplicate-header{
+                background: #3580fd;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px;
+                border-bottom: 1px solid #e5e5e5;
+                .close-filter{
+                    cursor: pointer;
+                }
+            }
+            .duplicate-body{
+                padding: 30px;
+                .duplicate-title{
+                    .title{
+                        color: #111111;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+                .duplicate-number{
+                    display: flex;
+                   
+                    align-items: center;
+                    padding: 25px 0;
+                    span{
+                        color: #5a5a5a;
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin-right: 20px;
+                    }
+                    .stt-duplicate-number{
+                        border: none;
+                        border-bottom: solid 2px #979797;
+                        text-align: center;
+                        color: #3580fd;
+                        font-size: 16px;
+                        box-shadow: unset;
+                        max-width: 70px;
+                        padding: 0px;
+                        &:focus{
+                            border-color: unset;
+                            box-shadow: unset;
+                        }
+                    }
+                }
+                .duplicate-room{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    span{
+                        margin-left: 10px;
+                        color: #5a5a5a;
+                        font-size: 16px;  
+                    }
+                }
+                .duplicate-room-availability{
+                    display: none;
+                    align-items: center;
+                    span{
+                        margin-left: 10px;
+                        color: #5a5a5a;
+                        font-size: 16px;  
+                    }
+                    
+                }
+                .duplicate-availability{
+                    display: flex;
+                    align-items: center;
+                    span{
+                        margin-left: 10px;
+                        color: #5a5a5a;
+                        font-size: 16px;  
+                    }
+                }
+                .duplicate-button{
+                    text-align: center;
+                    margin-top: 30px;
+                    .stt-dup-button{
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        background-color: #3580fd;
+                        border: none;
+                        cursor: pointer;
+                        color: #fff;
+                        font-size: 16px;
+                    }
+                }
+                .duplicate-message{
+                    margin-bottom: 10px;
+                    .alert{
+                        border: 1px solid transparent;
+                        border-radius: 4px;
+                        margin-top: 20px;
+                        font-size: 16px;
+                    }
+                    .alert-danger{
+                        color: #a94442;
+                        background-color: #f2dede;
+                        border-color: #ebccd1;   
+                    }
+                    .alert-success{
+                        color: #155724;
+                        background-color: #d4edda;
+                        border-color: #c3e6cb;
+                    }
+                }
+            }
+        }
+    }
+}
+.stt-duplicate{
+    cursor: pointer;
+}

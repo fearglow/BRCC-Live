@@ -1,0 +1,19 @@
+{
+    "name": "thoaingo/traveler-social-login",
+    "description": "Awesome starter plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "traveler",
+            "email": "thoaingo@shinecommerce.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "abraham/twitteroauth": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

@@ -1,0 +1,1678 @@
+# Copyright (C) 2024 Melapress
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Melapress File Monitor 2.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/website-file-changes-monitor\n"
+"Last-Translator: Melapress <info@melapress.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-10T13:02:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: website-file-changes-monitor\n"
+
+#. Plugin Name of the plugin
+#. Translators: %s: Plugin WP Hyperlink
+#: website-file-changes-monitor.php
+#: classes/helpers/class-emailer.php:111
+msgid "Melapress File Monitor"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: website-file-changes-monitor.php
+msgid "http://melapress.com/"
+msgstr ""
+
+#. Description of the plugin
+#: website-file-changes-monitor.php
+msgid "A hassle-free way to get alerted of file changes on your WordPress site & boost security."
+msgstr ""
+
+#. Author of the plugin
+#: website-file-changes-monitor.php
+#: includes/admin/html-help-markup.php:119
+msgid "Melapress"
+msgstr ""
+
+#: classes/activity-log/class-init-sensor.php:82
+msgid "Finished"
+msgstr ""
+
+#: classes/activity-log/class-init-sensor.php:83
+msgid "Purged"
+msgstr ""
+
+#: classes/activity-log/class-init-sensor.php:103
+msgid "File Monitor"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:35
+msgid "Melapress File Manager"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:36
+msgid "Melapress File Manager Content"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:41
+msgid "Melapress File Monitor file / directory change detected"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:42
+msgid "Melapress File Monitor file / directory change detected."
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:44
+msgid "Change type(s)"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:54
+msgid "Melapress File Monitor core file change detected"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:55
+msgid "Melapress File Monitor detected a change within a WordPress core file"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:65
+msgid "Melapress File Monitor file skipped due to size"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:66
+msgid "File not scanned for changes because they are bigger than the maximum file size limit."
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:68
+msgid "File path"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:78
+msgid "Melapress File Monitor scan started / finished"
+msgstr ""
+
+#. Translators: %EventType% - Type variable
+#: classes/activity-log/class-mfm-alerts.php:80
+msgid "Melapress File Monitor scan %EventType%."
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:90
+msgid "Melapress File Monitor scan frequency modified"
+msgstr ""
+
+#. Translators: %new% - Type variable
+#: classes/activity-log/class-mfm-alerts.php:92
+msgid "Changed the scan frequency to %new%."
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:94
+msgid "Previous scan frequency"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:104
+msgid "Melapress File Monitor scan time modified"
+msgstr ""
+
+#. Translators: %new_time% - Type variable
+#: classes/activity-log/class-mfm-alerts.php:106
+msgid "Changed the scan time to %new_time%."
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:108
+msgid "Previous configured scan time"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:118
+msgid "Melapress File Monitor WordPress core file integrity check was enabled / disabled"
+msgstr ""
+
+#. Translators: %Enabled_Disabled% - Is event disabled
+#: classes/activity-log/class-mfm-alerts.php:120
+msgid "%Enabled_Disabled% the WordPress core file integrity check."
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:130
+msgid "Added an allowed file in the WordPress core file integrity check"
+msgstr ""
+
+#. Translators: %filename% - File name variable
+#: classes/activity-log/class-mfm-alerts.php:132
+msgid "Added the file %filename% as allowed file in the WordPress core file integrity check."
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:142
+msgid "Removed an allowed file in the WordPress core file integrity check"
+msgstr ""
+
+#. Translators: %filename% - File name variable
+#: classes/activity-log/class-mfm-alerts.php:144
+msgid "Removed the file %filename% as allowed file in the WordPress core file integrity check."
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:154
+msgid "Melapress File Monitor settings reset default"
+msgstr ""
+
+#: classes/activity-log/class-mfm-alerts.php:155
+msgid "Purged the settings of the plugin <strong>Melapress File Monitor</strong> and reset them to default."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:126
+msgid "Filename cannot be added because it contains invalid characters."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:127
+msgid "File extension cannot be added because it contains invalid characters."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:128
+msgid "Directory cannot be added because it contains invalid characters."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:129
+msgid "Cannot be added as value is already found."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:130
+msgid "Directory is currently marked as excluded, please remove from the exclusion list and re-save to continue."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:131
+msgid "further changes found."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:132
+msgid "Continue loading changes."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:133
+msgid "- You may navigate away from this page at anytime."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:137
+msgid "Welcome to Melapress File Monitor"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:138
+msgid "Thank you for choosing our plugin. The plugin will now take you through some basic settings so you can get started with our plugin right away."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:139
+msgid "Back"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:140
+msgid "Continue"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:141
+msgid "You are all set..."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:142
+msgid "You are all done and the plugins settings are saved. Click the \"Complete setup & run scan\" button below to lauch your first scan. The first scan will start automatically as soon as you close this wizard."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:143
+msgid "Scan underway"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:144
+msgid "Scan file scan"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:145
+#: classes/helpers/class-events-helper.php:195
+msgid "Click to view changes"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:146
+msgid "Click to hide changes"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:148
+msgid "Lets clear things out"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:148
+msgid "We detected data from our previous (now obsolete) WFCM plugin. As Melapress File Manager is all-new, this data will purged once the plugin guide you through the rest of the setup."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:171
+#: classes/admin/class-admin-manager.php:172
+msgid "File Monitoring"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:182
+#: classes/admin/class-admin-manager.php:183
+#: classes/admin/class-admin-manager.php:629
+msgid "Settings"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:191
+#: classes/admin/class-admin-manager.php:192
+msgid "Help & Contact Us"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:273
+msgid "Start file scan"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:273
+msgid "File scanning disabled"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:284
+msgid "Previous Step"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:284
+msgid "Next Step"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:295
+msgid "Recent Events"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:296
+msgid "Files Modified Events"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:297
+msgid "Files Added Events"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:298
+msgid "Files Removed Events"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:299
+msgid "Permissions Changed Events"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:324
+msgid "Display"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:324
+msgid "events per page"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:330
+msgid "Last scan time:"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:330
+msgid "Showing results from last"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:330
+#: includes/admin/html-settings-markup.php:397
+msgid "scan(s)"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:330
+msgid "You control how much scan data to keep in the plugin from the plugin's settings."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:333
+msgid "Search for event"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:335
+msgid "Mark all as read"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:336
+msgid "Next scheduled scan time:"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:337
+msgid "You can update the scan schedule within the settings"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:350
+msgid "Mark ALL events as read"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:350
+msgid "Mark currently visible events as read"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:350
+#: includes/admin/html-settings-markup.php:650
+#: includes/admin/html-settings-markup.php:700
+#: includes/admin/html-settings-markup.php:721
+msgid "Cancel"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:424
+#: classes/helpers/class-emailer.php:72
+msgid "Directory:"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:438
+msgid "Time:"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:528
+msgid "Settings updated"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:553
+msgid "Settings update fail, please check provided values"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:589
+msgid "file changes."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:589
+msgid "file change."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:590
+msgid "View changes"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:590
+msgid "View change"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:594
+msgid "Melapress File Monitor has detected"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:628
+msgid "See File Changes"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:630
+msgid "Support"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:654
+msgid "Melapress File Monitor has been updated to version"
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:656
+msgid "You are now running the latest version of Melapress File Monitor. To see what's been included in this update, refer to the plugin's release notes and change log where we list all new features, updates, and bug fixes."
+msgstr ""
+
+#: classes/admin/class-admin-manager.php:658
+msgid "Read the release notes"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:47
+#: classes/admin/class-ajax-tasks.php:81
+#: classes/admin/class-ajax-tasks.php:146
+#: classes/admin/class-ajax-tasks.php:174
+#: classes/admin/class-ajax-tasks.php:216
+#: classes/admin/class-ajax-tasks.php:256
+#: classes/admin/class-ajax-tasks.php:332
+#: classes/admin/class-ajax-tasks.php:373
+#: classes/admin/class-ajax-tasks.php:406
+#: classes/admin/class-ajax-tasks.php:429
+#: classes/helpers/class-emailer.php:141
+msgid "Failed nonce check"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:65
+msgid "Data successfully purged, you will now to taken to the initial setup wizard."
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:88
+msgid "excluded directories"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:92
+#: classes/admin/class-ajax-tasks.php:152
+msgid "Failed"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:110
+msgid "excluded files"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:124
+msgid "already added to"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:129
+#: classes/admin/class-ajax-tasks.php:158
+msgid "saved to "
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:180
+msgid "Setting not provided"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:191
+msgid "Setting not found "
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:200
+msgid "reset to default"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:222
+msgid "No target given"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:240
+#: classes/admin/class-ajax-tasks.php:295
+#: classes/admin/class-ajax-tasks.php:339
+#: classes/admin/class-ajax-tasks.php:436
+msgid "All done"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:369
+msgid "No search term provided"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:383
+msgid "found, displaying below"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:389
+msgid "not found"
+msgstr ""
+
+#: classes/admin/class-ajax-tasks.php:413
+msgid "Scan cancelled"
+msgstr ""
+
+#: classes/crons/class-cron-handler.php:275
+msgid "Every"
+msgstr ""
+
+#: classes/crons/class-cron-handler.php:281
+msgid "Every 10 minutes"
+msgstr ""
+
+#: classes/crons/class-cron-handler.php:285
+msgid "Once a week"
+msgstr ""
+
+#: classes/helpers/class-emailer.php:54
+msgid "File changes from file integrity scan"
+msgstr ""
+
+#: classes/helpers/class-emailer.php:64
+msgid "The below is a list file change events from your most recent scan"
+msgstr ""
+
+#: classes/helpers/class-emailer.php:105
+msgid "There were no file changes detected during the last file integrity scan"
+msgstr ""
+
+#: classes/helpers/class-emailer.php:108
+msgid "Visit the File Monitor in the WordPress dashboard to check the file changes."
+msgstr ""
+
+#. Translators: %s: Plugin WP Hyperlink
+#: classes/helpers/class-emailer.php:111
+msgid "This file integrity scan was done with %s."
+msgstr ""
+
+#: classes/helpers/class-emailer.php:158
+msgid "No email supplied"
+msgstr ""
+
+#: classes/helpers/class-emailer.php:163
+msgid "MFM Email Test"
+msgstr ""
+
+#: classes/helpers/class-emailer.php:164
+msgid "This is a test message, sent from the Melapress File Monitor plugin"
+msgstr ""
+
+#: classes/helpers/class-emailer.php:170
+msgid "Test failed"
+msgstr ""
+
+#: classes/helpers/class-emailer.php:176
+msgid "Test email successfully sent"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:39
+msgid "File scan started "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:40
+msgid "Core file modified "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:41
+msgid "Core file renamed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:42
+msgid "Core file permissions modified"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:43
+msgid "Core directory permissions modified"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:44
+msgid "Core file added "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:45
+msgid "Core file removed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:46
+msgid "Core Directory added "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:47
+msgid "Core Directory modified "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:48
+msgid "Core Directory removed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:49
+msgid "File scan complete "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:50
+msgid "File scan aborted "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:51
+msgid "File(s) added "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:52
+msgid "File(s) modified "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:53
+msgid "File(s) removed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:54
+msgid "File(s) renamed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:55
+msgid "Other file permissions modified"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:56
+msgid "Other directory permissions modified"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:57
+msgid "Directory added "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:58
+msgid "Directory modified "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:59
+msgid "Directory removed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:60
+msgid "Plugin file(s) added "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:61
+msgid "Plugin file(s) modified "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:62
+msgid "Plugin file(s) renamed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:63
+msgid "Plugin file permissions modified"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:64
+msgid "Plugin directory permissions modified"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:65
+msgid "Plugin removed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:66
+msgid "Plugin added "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:67
+msgid "Plugin updated "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:68
+msgid "Theme file(s) added "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:69
+msgid "Theme file(s) modified "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:70
+msgid "Theme file(s) renamed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:71
+msgid "Theme directory permissions modified"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:72
+msgid "Theme removed "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:73
+msgid "Theme added "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:74
+msgid "Theme updated "
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:100
+msgid "Event Type:"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:121
+msgid "PLUGIN"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:125
+msgid "THEME"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:129
+msgid "CORE"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:129
+msgid "This event indicates a core file was has been modified from its expected hash"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:133
+msgid "OTHER"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:162
+msgid "permissions changed"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:168
+msgid "modified files"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:174
+msgid "added files"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:180
+msgid "removed files"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:207
+msgid "Additional changes found:"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:207
+msgid "Load additional changes"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:216
+msgid "File"
+msgstr ""
+
+#: classes/helpers/class-events-helper.php:223
+msgid "Empty directory"
+msgstr ""
+
+#: classes/helpers/class-setting-validator.php:172
+msgid "Please ensure at least one Notification type is enabled"
+msgstr ""
+
+#: classes/helpers/class-setting-validator.php:173
+msgid "Please provide a valid email address"
+msgstr ""
+
+#: classes/helpers/class-setting-validator.php:174
+msgid "Directory is not valid"
+msgstr ""
+
+#: classes/helpers/class-setting-validator.php:175
+msgid "Ignored directory already in excluded list, please remove it to continue"
+msgstr ""
+
+#: classes/helpers/class-settings-helper.php:564
+msgid "Not scheduled"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:21
+msgid "Help"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:22
+msgid "About Us"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:23
+msgid "System Info"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:29
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:31
+msgid "Getting alerted of file changes on your WordPress website is as easy as 1 2 3 with Melapress File Monitor plugin. This can be easily done through the install wizard or the plugin settings. If you are stuck, no problem! Below are a few links of guides to help you get started:"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:34
+msgid "Getting started with Melapress File Monitor"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:35
+msgid "How to change the email address where notifications are sent"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:39
+msgid "Once you install the plugin it will automatically scan for file changes. When the plugin detects a new, modified or deleted file it will notify you with an orange icon as shown below:"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:42
+msgid "Melapress File Monitor View"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:47
+msgid "Plugin Documentation"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:49
+msgid "For more technical information about the Melapress File Monitor plugin please visit the plugin’s knowledge base."
+msgstr ""
+
+#: includes/admin/html-help-markup.php:51
+msgid "Knowledge Base"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:54
+msgid "Plugin Support"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:56
+msgid "You can post your question on our support forum or send us an email for 1 to 1 support. Email support is provided to both free and premium plugin users."
+msgstr ""
+
+#: includes/admin/html-help-markup.php:58
+msgid "Free support forum"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:67
+msgid "Rate Melapress File Monitor"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:68
+msgid "We work really hard to develop a good plugin with which you can be notified of file changes. It involves thousands of man-hours and an endless amount of dedication to research, develop, and maintain this plugin. Therefore if you like what you see, and find Melapress File Monitor useful we ask you nothing more than to please rate our plugin. We appreciate every star!"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:79
+msgid "Rate Plugin"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:88
+msgid "Keep a log of users and under the hood site activity."
+msgstr ""
+
+#: includes/admin/html-help-markup.php:94
+msgid "Add an extra layer of security to your login pages with 2FA & require your users to use it."
+msgstr ""
+
+#: includes/admin/html-help-markup.php:100
+msgid "Protect website forms & login pages from spambots & automated attacks."
+msgstr ""
+
+#: includes/admin/html-help-markup.php:106
+msgid "Boost WordPress security with login & password policies."
+msgstr ""
+
+#: includes/admin/html-help-markup.php:115
+msgid "About us"
+msgstr ""
+
+#. Translators: 1. WP plugins hyperlink 2. Contact form hyperlink
+#: includes/admin/html-help-markup.php:120
+msgid "The WP File Changes Monitor plugin is developed by Melapress, developers of %1$s. If you would like to get in touch with us, please use our %2$s."
+msgstr ""
+
+#. Translators: 1. WP plugins hyperlink 2. Contact form hyperlink
+#: includes/admin/html-help-markup.php:120
+msgid "high-quality niche WordPress security and admin plugins"
+msgstr ""
+
+#. Translators: 1. WP plugins hyperlink 2. Contact form hyperlink
+#: includes/admin/html-help-markup.php:120
+msgid "contact form"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:124
+msgid "Our WordPress Plugins"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:134
+msgid "LEARN MORE"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:143
+msgid "System Information"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:147
+msgid "Download System Info File"
+msgstr ""
+
+#: includes/admin/html-help-markup.php:152
+msgid "Download MFM Debug logs"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:23
+msgid "Hourly"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:24
+msgid "Daily"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:25
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:30
+msgctxt "a time string representing midnight"
+msgid "00:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:31
+msgctxt "a time string of hour followed by minutes"
+msgid "01:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:32
+msgctxt "a time string of hour followed by minutes"
+msgid "02:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:33
+msgctxt "a time string of hour followed by minutes"
+msgid "03:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:34
+msgctxt "a time string of hour followed by minutes"
+msgid "04:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:35
+msgctxt "a time string of hour followed by minutes"
+msgid "05:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:36
+msgctxt "a time string of hour followed by minutes"
+msgid "06:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:37
+msgctxt "a time string of hour followed by minutes"
+msgid "07:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:38
+msgctxt "a time string of hour followed by minutes"
+msgid "08:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:39
+msgctxt "a time string of hour followed by minutes"
+msgid "09:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:40
+msgctxt "a time string of hour followed by minutes"
+msgid "10:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:41
+msgctxt "a time string of hour followed by minutes"
+msgid "11:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:42
+msgctxt "a time string representing midday"
+msgid "12:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:43
+msgctxt "a time string of hour followed by minutes"
+msgid "13:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:44
+msgctxt "a time string of hour followed by minutes"
+msgid "14:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:45
+msgctxt "a time string of hour followed by minutes"
+msgid "15:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:46
+msgctxt "a time string of hour followed by minutes"
+msgid "16:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:47
+msgctxt "a time string of hour followed by minutes"
+msgid "17:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:48
+msgctxt "a time string of hour followed by minutes"
+msgid "18:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:49
+msgctxt "a time string of hour followed by minutes"
+msgid "19:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:50
+msgctxt "a time string of hour followed by minutes"
+msgid "20:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:51
+msgctxt "a time string of hour followed by minutes"
+msgid "21:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:52
+msgctxt "a time string of hour followed by minutes"
+msgid "22:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:53
+msgctxt "a time string of hour followed by minutes"
+msgid "23:00"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:58
+msgctxt "the last day of the week and last day of the weekend"
+msgid "Sunday"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:59
+msgctxt "the first day of the week and first day of the work week"
+msgid "Monday"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:60
+msgctxt "the second day of the week"
+msgid "Tuesday"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:61
+msgctxt "the third day of the week"
+msgid "Wednesday"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:62
+msgctxt "the fourth day of the week"
+msgid "Thursday"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:63
+msgctxt "the fith day of the week, last day of the work week"
+msgid "Friday"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:64
+msgctxt "the first day of the weekend"
+msgid "Saturday"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:69
+msgctxt "a day number in a given month"
+msgid "01"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:70
+msgctxt "a day number in a given month"
+msgid "02"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:71
+msgctxt "a day number in a given month"
+msgid "03"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:72
+msgctxt "a day number in a given month"
+msgid "04"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:73
+msgctxt "a day number in a given month"
+msgid "05"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:74
+msgctxt "a day number in a given month"
+msgid "06"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:75
+msgctxt "a day number in a given month"
+msgid "07"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:76
+msgctxt "a day number in a given month"
+msgid "08"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:77
+msgctxt "a day number in a given month"
+msgid "09"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:78
+msgctxt "a day number in a given month"
+msgid "10"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:79
+msgctxt "a day number in a given month"
+msgid "11"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:80
+msgctxt "a day number in a given month"
+msgid "12"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:81
+msgctxt "a day number in a given month"
+msgid "13"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:82
+msgctxt "a day number in a given month"
+msgid "14"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:83
+msgctxt "a day number in a given month"
+msgid "15"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:84
+msgctxt "a day number in a given month"
+msgid "16"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:85
+msgctxt "a day number in a given month"
+msgid "17"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:86
+msgctxt "a day number in a given month"
+msgid "18"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:87
+msgctxt "a day number in a given month"
+msgid "19"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:88
+msgctxt "a day number in a given month"
+msgid "20"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:89
+msgctxt "a day number in a given month"
+msgid "21"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:90
+msgctxt "a day number in a given month"
+msgid "22"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:91
+msgctxt "a day number in a given month"
+msgid "23"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:92
+msgctxt "a day number in a given month"
+msgid "24"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:93
+msgctxt "a day number in a given month"
+msgid "25"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:94
+msgctxt "a day number in a given month"
+msgid "26"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:95
+msgctxt "a day number in a given month"
+msgid "27"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:96
+msgctxt "a day number in a given month"
+msgid "28"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:97
+msgctxt "a day number in a given month"
+msgid "29"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:98
+msgctxt "a day number in a given month"
+msgid "30"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:102
+#: includes/admin/html-settings-markup.php:145
+msgid "Scan frequency"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:103
+msgid "Scan hour"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:104
+msgid "Scan day of week"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:105
+msgid "Scan frequency AM/PM"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:106
+msgid "Base paths to scan"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:107
+msgid "Ignored file extensions"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:108
+msgid "Ignored directories"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:109
+msgid "Ignored files"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:110
+msgid "Excluded directories"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:111
+msgid "Files allow in core"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:112
+msgid "Enabled notifications"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:113
+msgid "Use admin or custom email address"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:114
+msgid "Number of changes reported in email"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:115
+msgid "Send notification if changes found"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:116
+msgid "Send notification if no changes found"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:117
+msgid "Core scanning enabled"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:118
+msgid "Max file size to scan"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:119
+msgid "Number of scans to store"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:120
+msgid "Use custom from address"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:130
+msgid "General scanning"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:131
+msgid "WordPress core"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:132
+msgid "Notifications"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:133
+msgid "Logging & Debugging"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:142
+msgid "When should the plugin scan your website for file changes?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:157
+msgid "Scan time"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:183
+msgid "Hour"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:193
+msgid "Day"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:201
+msgid "What is the website's absolute path?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:202
+msgid "This is just for your reference. You do not need to specify it in any of the settings below."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:203
+msgid "Website absolute path:"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:207
+msgid "Which files and directories should the plugin ignore?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:208
+msgid "Use the settings below to specify the files or directories that the plugin should ignore. Ignored files and directories are still included in the scan but the plugin won’t report any detected changes."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:213
+msgid "Ignore all files in these directories"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:235
+#: includes/admin/html-settings-markup.php:275
+#: includes/admin/html-settings-markup.php:312
+#: includes/admin/html-settings-markup.php:348
+#: includes/admin/html-settings-markup.php:473
+msgid "will be removed on next save."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:244
+msgid "Which specific file(s) should the plugin ignore during a scan?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:245
+msgid "Use the setting below to specify the file and extension of the files the plugin should ignore during a scan and not report the changes. This setting is also available in the plugin's settings page, so it can be changed at a later stage."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:250
+msgid "Ignore these files"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:253
+msgid "Add the filename and extension of the file(s) you want to exclude from the scan. When you specify a filename and extension, all the files that match that name will be excluded. If you would like to exclude a specific file, specify the location and the filename. The directory path should be in relation to the website's root. For example:"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:284
+msgid "Which group of files should the plugin ignore during a scan?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:285
+msgid "Use the setting below to specify the extension of files the plugin should ignore during a scan and not report the changes. This setting is also available in the plugin's settings page, so it can be changed at a later stage."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:290
+msgid "Ignore all files with these extensions"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:293
+msgid "Specify the extension of the file types you want to exclude. You should exclude any type of logs and backup files that tend to be very big."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:321
+msgid "Which directories should be excluded from the scan?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:322
+msgid "Use the settings below to specify the directories that the plugin should exclude from the file scans. When a directory is excluded, the plugin won’t scan any of the files within that directory and won’t be aware of any changes within that directory. This setting is ideal for directories with a large number of files, for example, where images, videos and other digital media is stored."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:327
+msgid "Exclude all files in these directories"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:358
+msgid "How should the plugin handle files with no extension?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:359
+msgid "By default the plugin also scans files with no extension. You can disable this feature using the setting below."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:362
+msgid "Scan files without extension"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:375
+msgid "What is the biggest file size the plugin should scan?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:376
+msgid "Use the setting below to configure the maximum file size the plugin should exclude from the scan. Files exceeding this size will not be scanned. Tip: files containing source code are rarely this large. Large file sizes typically apply to images, videos, PDFs, and other media files."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:379
+msgid "File size limit"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:382
+msgid "MB"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:389
+msgid "How much scan data would like you the plugin to keep?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:390
+msgid "By default, Melapress File Monitor retains only the scan results from the last scan, which are overwritten with each new scan. If you'd like to keep data from multiple scans, please specify how many sets of results you wish to retain below."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:394
+msgid "Events purging"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:397
+msgid "Scan events purging: Remove file changes events older than"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:408
+msgid "Should the plugin cross check the WordPress core files?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:410
+msgid "During the scan, the plugin cross checks (verifies the integrity) of your WordPress core files by comparing them to the files in the official WordPress repository. If any discrepancies are found, the plugin will notify you of the changes."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:414
+msgid "Cross check WordPress"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:428
+msgid "Which files are allowed in the WordPress core directories (root, wp-admin, wp-includes)?"
+msgstr ""
+
+#. translators: path names.
+#: includes/admin/html-settings-markup.php:432
+msgid "In a default installation all non-core WordPress files are stored within the %1$1s directory. However, if your website contains custom or third-party files in the root or core directories like %2$2s and %3$3s, you can add them to the list below to mark them as legitimate. Otherwise, the plugin will flag them during each scan."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:435
+msgid "Please note, adding files to this list ensures they won't be flagged, but the plugin will still alert you of any modifications. If you don't want to receive alerts of changes in these files or directories, consider excluding them from scans entirely."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:440
+msgid "Allow these files"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:444
+msgid "Only specify the name and extension of the file(s) you want to allow in the website root and core directories. There is no need to specify the path of the file. Wildcards are not supported."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:449
+msgid "Add"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:450
+msgid "When files are added to this list, the plugin will consider them as part of your website's WordPress core. Therefore it will scan them during the normal file integrity scans and will alert you if they are modified or deleted. If you do not want to be alerted of such changes about this file, exclude it from the scan."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:451
+msgid "Adding an allowed file"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:482
+msgid "Which file changes do you want to be notified of?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:486
+msgid "Notify me when files are"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:491
+msgid "Added"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:496
+msgid "Deleted"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:501
+msgid "Modified"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:506
+msgid "Permissions modified"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:515
+msgid "Where should the plugin send the file changes notification?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:516
+msgid "By default the plugin sends the email notifications to the administrator email address configured in the WordPress settings. Use the below setting to send the email notification to a different email address. You can specify multiple email addresses by separating them with a comma."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:519
+msgid "Notify this address"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:524
+msgid "Use admin email address in website settings."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:529
+msgid "Use a different email:"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:530
+msgid "Enter email"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:534
+msgid "Send a test email"
+msgstr ""
+
+#. Translators: Contact us hyperlink
+#: includes/admin/html-settings-markup.php:537
+msgid "Oops! Email sending failed. Please %s for assistance."
+msgstr ""
+
+#. Translators: Contact us hyperlink
+#: includes/admin/html-settings-markup.php:537
+msgid "contact us"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:546
+msgid "Which email address should the plugin use as a from address?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:547
+msgid "By default when the plugin sends an email notification it uses the email address specified in this website’s general settings. Though you can change the email address and display name from this section."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:550
+msgid "From Email & Name"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:556
+msgid "Use the email address from the WordPress general settings"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:561
+msgid "Use another email address"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:565
+msgid "Email Address"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:570
+msgid "Display Name"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:580
+msgid "How many file changes should the plugin report in the email?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:581
+msgid "To avoid long emails, by default the plugin only reports up to 10 changes per file type change. You can increase or decrease the number of reported file changes in the email from the below setting:"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:584
+msgid "Number of file changes"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:595
+msgid "When should the plugin send you an email?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:596
+msgid "Use the settings below to specify when the plugin should send you an email."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:599
+msgid "Email settings"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:604
+msgid "Send me an email when file changes are detected"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:610
+msgid "Send me an email even when a scan finishes and no file changes are detected"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:621
+msgid "Temporarily disable file scanning"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:622
+msgid "Use the below switch to disable file scanning. When you disable and re-enable scanning, the plugin will compare the file scan to those of the last scan before it was disabled."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:625
+msgid "File scanning"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:635
+msgid "A scan is in progress, disabling logging will abort this scan."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:642
+msgid "Cancel scan in-progress"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:645
+msgid "Cancel active scan"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:648
+msgid "Cancel scan"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:650
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:650
+#: includes/admin/html-settings-markup.php:700
+#: includes/admin/html-settings-markup.php:721
+msgid "Proceed"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:658
+msgid "Debug & uninstall settings"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:660
+msgid "Enable the debug logging when requested by support. This is used for support."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:660
+msgid "The debug log file is saved in the /wp-content/uploads/mfm-logs/ folder on your website."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:664
+msgid "Debug logs"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:679
+msgid "Delete plugin data upon uninstall"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:695
+#: includes/admin/html-settings-markup.php:698
+msgid "Purge plugin data"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:700
+msgid "Are you sure? This will remove ALL data, settings and events."
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:709
+msgid "Restore plugin setting"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:719
+msgid "Restore setting to default"
+msgstr ""
+
+#: includes/admin/html-settings-markup.php:721
+msgid "Are you sure? This reset this setting to its default value."
+msgstr ""

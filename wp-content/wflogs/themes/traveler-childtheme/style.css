@@ -1,0 +1,38 @@
+/*
+Theme Name:     Traveler Childtheme
+Description:    Traveler Child Theme
+Theme URI:      https://travelerwp.com/
+Author:         the ShineTheme
+Author URI:     http://shinetheme.com
+Version:        1.0
+Template:       traveler
+*/
+
+.guest_name_input .guest_name_control .control-item select {
+    width: auto; /* Adjusts automatically to the content or a specified width */
+    padding: 8px 12px; /* More padding for better readability and touch targets */
+    border: 1px solid #d7dce3; /* Defined border for clarity */
+    border-radius: 4px; /* Rounded corners for a modern look */
+    background-color: #ffffff; /* Solid background color, can be adjusted for theme */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    appearance: none; /* Removes default browser styling */
+    
+    cursor: pointer; /* Indicates this is an interactive element */
+}
+
+/* Hover state for visual feedback */
+.guest_name_input .guest_name_control .control-item select:hover {
+    border-color: #aeb6bf; /* Slightly darker border on hover */
+}
+
+/* Focus state for accessibility */
+.guest_name_input .guest_name_control .control-item select:focus {
+    outline: none; /* Removes default focus outline */
+    border-color: #3498db; /* Highlight color to indicate focus */
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.5); /* Subtle glow effect */
+}
+
+/* Optional: Add a transition for smooth visual effects */
+.guest_name_input .guest_name_control .control-item select {
+    transition: border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}

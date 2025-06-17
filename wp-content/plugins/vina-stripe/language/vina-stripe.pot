@@ -1,0 +1,129 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Traveler\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-22 09:01+0700\n"
+"PO-Revision-Date: 2017-10-10 14:30+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: D:/wampp/www/traveler/wp-content/plugins/vina-stripe\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: C:/Users/ADMIN/.idea\n"
+"X-Poedit-SearchPathExcluded-1: C:/Users/ADMIN/.git\n"
+"X-Poedit-SearchPathExcluded-2: C:/Users/ADMIN/node_modules\n"
+"X-Poedit-SearchPathExcluded-3: C:/Users/ADMIN/landing\n"
+"X-Poedit-SearchPathExcluded-4: C:/Users/ADMIN/js\n"
+"X-Poedit-SearchPathExcluded-5: C:/Users/ADMIN/assets\n"
+"X-Poedit-SearchPathExcluded-6: C:/Users/ADMIN/v2\n"
+"X-Poedit-SearchPathExcluded-7: C:/Users/ADMIN/v3\n"
+"X-Poedit-SearchPathExcluded-8: C:/Users/ADMIN/inc/modules/layouts/cores/assets\n"
+"X-Poedit-SearchPathExcluded-9: C:/Users/ADMIN/dist\n"
+"X-Poedit-SearchPathExcluded-10: C:/Users/ADMIN/changelog_new\n"
+"X-Poedit-SearchPathExcluded-11: C:/Users/ADMIN/inc/plugins/custom-option-tree/js\n"
+"X-Poedit-SearchPathExcluded-12: C:/Users/ADMIN/inc/plugins/custom-select-post/js\n"
+
+#: inc/stripe.php:72
+msgid "Traveler Notice:"
+msgstr ""
+
+#: inc/stripe.php:75
+#, php-format
+msgid "<strong>Traveler Stripe</strong> require %s version %s or above. Your current is %s"
+msgstr ""
+
+#: inc/stripe.php:75
+msgid "Traveler Code"
+msgstr ""
+
+#: inc/stripe.php:80
+msgid "Learn how to update it"
+msgstr ""
+
+#: inc/stripe.php:84 inc/stripe.php:87
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/stripe.php:101
+msgid "Return Url (Required)"
+msgstr ""
+
+#: inc/stripe.php:104
+msgid "You must enter the return url"
+msgstr ""
+
+#: inc/stripe.php:108
+msgid "Publishable Key"
+msgstr ""
+
+#: inc/stripe.php:111
+msgid "Your Stripe Publishable Key"
+msgstr ""
+
+#: inc/stripe.php:116
+msgid "Secret Key"
+msgstr ""
+
+#: inc/stripe.php:119
+msgid "Your Stripe Secret Key"
+msgstr ""
+
+#: inc/stripe.php:124
+msgid "Enable Sandbox Mode"
+msgstr ""
+
+#: inc/stripe.php:128
+msgid "Allow you to enable sandbox mode for testing"
+msgstr ""
+
+#: inc/stripe.php:133
+msgid "Test Publishable Key"
+msgstr ""
+
+#: inc/stripe.php:136
+msgid "Your Stripe Test Publishable Key for Sandbox mode"
+msgstr ""
+
+#: inc/stripe.php:141
+msgid "Test Secret Key"
+msgstr ""
+
+#: inc/stripe.php:144
+msgid "Your Stripe Test Secret Key for Sandbox mode"
+msgstr ""
+
+#: inc/stripe.php:208 inc/stripe.php:277 vina-stripe.php:80 vina-stripe.php:169
+msgid "Full name:"
+msgstr ""
+
+#: inc/stripe.php:208 vina-stripe.php:80
+msgid "Member Package"
+msgstr ""
+
+#: inc/stripe.php:277 vina-stripe.php:169
+msgid "Name service:"
+msgstr ""
+
+#: inc/stripe.php:350 inc/stripe.php:395
+msgid "Invalid PaymentIntent status"
+msgstr ""
+
+#: inc/stripe.php:428
+msgid "Stripe"
+msgstr ""
+
+#: views/stripe_creative.php:35
+msgid "Custommer"
+msgstr ""
+
+#: vina-stripe.php:13
+msgid "Hi there!  I'm just a plugin, not much I can do when called directly."
+msgstr ""

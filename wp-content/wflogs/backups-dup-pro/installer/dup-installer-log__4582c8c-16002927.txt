@@ -1,0 +1,2180 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 01:09:07
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 8.2.12                                |8.2.12
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.12 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: nginx/1.25.3
+DOC ROOT____________: "/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports"
+REQUEST URL_________: "https://www.brcampground.com/wp-content/backups-dup-pro/imports"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+ *** FROM LOCAL FILE
+PARAM SET KEY[template]
+PARAM SET KEY[valid-act]
+PARAM SET KEY[recovery-link]
+PARAM SET KEY[import-info]
+PARAM SET KEY[db-display-overwarn]
+PARAM SET KEY[cpnl-can-sel]
+PARAM SET KEY[view_mode]
+PARAM SET KEY[url_new]
+PARAM SET KEY[path_new]
+PARAM SET KEY[dbhost]
+PARAM SET KEY[dbname]
+PARAM SET KEY[dbuser]
+PARAM SET KEY[dbpass]
+PARAM SET KEY[dbcharset]
+PARAM SET KEY[dbcollate]
+PARAM SET KEY[ovr_site_data]
+IS RESTORE BACKUP WITH FULL FILES COMPONENTS: SET ARCHIVE ACTION TO REMOVE WP FILES
+********************************************************************************
+.htaccess file was found in dup-installer folder and it was renamed to avoid interference with installer.
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+INSTALL MODES_______: IMPORT, OVERWRITE, RESTORE_BACKUP
+TEMPLATE____________: "import-base"
+VALIDATE ON START___: "auto"
+PATH_NEW____________: "/home/wp_suihgq/brcampground.com"
+URL_NEW_____________: "https://www.brcampground.com"
+********************************************************************************
+IMPORTER INFO
+
+WP VERSION _________: 6.4.3
+DUP VERSION ________: 4.5.15.1
+LICENSE_____________: Pro
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/20240216_betsierivercanoesandcampgro_[HASH]_20240216002927_archive.zip"
+ARCHIVE SIZE________: 393.73MB
+CREATED_____________: 2024-02-16 00:29:57
+WP VERSION__________: 6.4.3
+DUP VERSION_________: 4.5.15.1
+LICENSE_____________: Pro
+PACKAGE COMPONENTS__: Database, Core, Plugins, Themes, Media, Other
+DB VERSION__________: 8.0.34
+DB FILE SIZE________: 54.7MB
+DB TABLES___________: 114
+DB ROWS_____________: 156865
+URL HOME____________: https://www.brcampground.com
+URL CORE____________: https://www.brcampground.com
+URL CONTENT_________: https://www.brcampground.com/wp-content
+URL UPLOAD__________: https://www.brcampground.com/wp-content/uploads
+URL PLUGINS_________: https://www.brcampground.com/wp-content/plugins
+URL MU PLUGINS______: https://www.brcampground.com/wp-content/mu-plugins
+URL THEMES__________: https://www.brcampground.com/wp-content/themes
+PATH HOME___________: /home/wp_suihgq/brcampground.com
+PATH ABS____________: /home/wp_suihgq/brcampground.com
+PATH WPCONFIG_______: /home/wp_suihgq/brcampground.com
+PATH WPCONTENT______: /home/wp_suihgq/brcampground.com/wp-content
+PATH UPLOADS________: /home/wp_suihgq/brcampground.com/wp-content/uploads
+PATH PLUGINS________: /home/wp_suihgq/brcampground.com/wp-content/plugins
+PATH MUPLUGINS______: /home/wp_suihgq/brcampground.com/wp-content/mu-plugins
+PATH THEMES_________: /home/wp_suihgq/brcampground.com/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "www.brcampground.com/"
+
+PLUGINS
+PLUGIN [SLUG:tinymce-advanced/tinymce-advanced.php             ][ON:true ]  Advanced Editor Tools
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-spam: Spam Protection
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:dreamhost-panel-login.php                         ][ON:true ]  DreamHost Panel Login
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:ewww-image-optimizer/ewww-image-optimizer.php     ][ON:true ]  EWWW Image Optimizer
+PLUGIN [SLUG:jwt-authentication-for-wp-rest-api/jwt-auth.php   ][ON:true ]  JWT Authentication for WP-API
+PLUGIN [SLUG:login-as-user/login-as-user.php                   ][ON:true ]  Login as User
+PLUGIN [SLUG:mailchimp-for-wp/mailchimp-for-wp.php             ][ON:true ]  MC4WP: Mailchimp for WordPress
+PLUGIN [SLUG:nginx-helper/nginx-helper.php                     ][ON:true ]  Nginx Helper
+PLUGIN [SLUG:st-option-tree/ot-loader.php                      ][ON:true ]  OptionTree
+PLUGIN [SLUG:redis-cache/redis-cache.php                       ][ON:false]  Redis Object Cache
+PLUGIN [SLUG:simple-history/index.php                          ][ON:true ]  Simple History
+PLUGIN [SLUG:traveler-code/traveler-code.php                   ][ON:true ]  Traveler code
+PLUGIN [SLUG:traveler-dupliate-service/traveler-duplicate.php  ][ON:true ]  Traveler Duplicate
+PLUGIN [SLUG:traveler-layout-essential-for-elementor/traveler-layout-essential-for-elementor.php][ON:true ]  Traveler Layout Essential For Elementor
+PLUGIN [SLUG:traveler-rest-api/traveler-rest-api.php           ][ON:true ]  Traveler Rest API
+PLUGIN [SLUG:traveler-twilio-sms/traveler-sms.php              ][ON:true ]  Traveler  SMS
+PLUGIN [SLUG:traveler-social-login/traveler-social-login.php   ][ON:true ]  Traveler Social Login
+PLUGIN [SLUG:vina-stripe/vina-stripe.php                       ][ON:true ]  Traveler Stripe
+PLUGIN [SLUG:js_composer/js_composer.php                       ][ON:true ]  WPBakery Page Builder
+PLUGIN [SLUG:wp-crontrol/wp-crontrol.php                       ][ON:true ]  WP Crontrol
+PLUGIN [SLUG:wp-file-manager/file_folder_manager.php           ][ON:true ]  WP File Manager
+PLUGIN [SLUG:wp-mail-smtp-pro/wp_mail_smtp.php                 ][ON:true ]  WP Mail SMTP Pro
+PLUGIN [SLUG:wp-super-cache/wp-cache.php                       ][ON:false]  WP Super Cache
+
+********************************************************************************
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/main.installer.php|LINE:76]
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/ctrls/ctrl.base.php:191][DELTA:   0.08525]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Duplicator importer version" RESULT: passed
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Disaster Recovery" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Disaster Recovery" RESULT: hard warning
+
+START TEST "Partial Backup Check" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00074]  MESSAGE:TEST "Partial Backup Check" RESULT: passed
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/wp_suihgq/brcampground.com"
+--------------------------------------
+LOG-TIME[DELTA:   0.15740]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00129]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Wordpress Configuration" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.04974]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Extract only files" [CLASS: DUPX_Validation_test_db_excluded]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Extract only files" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00241]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00820]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00115]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00294]  MESSAGE:TEST "Multiple WP Installs" RESULT: soft warning
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/database/class.db.php:686] MSG: SELECT command denied to user 'brcampgroundcom3'@'dp-f541d7c895.dreamhostps.com' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'brcampgroundcom3' AND host = 'mysqld22.brcampground.com'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/class.validation.database.service.php[1095]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/database-tests/class.validation.test.db.user.resources.php[30]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/class.validation.abstract.item.php[56]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/class.validation.manager.php[246]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/class.validation.manager.php[214]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/ctrls/classes/class.ctrl.ajax.php[186]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/ctrls/classes/class.ctrl.ajax.php[110]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/main.installer.php[47]
+
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.57885]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00378]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00363]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00226]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00047]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+DEFAULT DB_CHARSET [utf8] isn't valid, update DB_CHARSET to utf8mb4 and DB_COLLATE set empty
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/main.installer.php|LINE:76]
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/ctrls/ctrl.base.php:191][DELTA:   0.02623]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: passed
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Disaster Recovery" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Disaster Recovery" RESULT: hard warning
+
+START TEST "Partial Backup Check" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Partial Backup Check" RESULT: passed
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/wp_suihgq/brcampground.com"
+--------------------------------------
+LOG-TIME[DELTA:   0.14734]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "Wordpress Configuration" [CLASS: DUPX_Validation_test_wp_config]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Wordpress Configuration" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Functions and Classes" [CLASS: DUPX_Validation_test_php_functionalities]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Functions and Classes" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.04832]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Extract only files" [CLASS: DUPX_Validation_test_db_excluded]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Extract only files" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00128]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00558]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00053]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00172]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WP Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00503]  MESSAGE:TEST "Multiple WP Installs" RESULT: soft warning
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/database/class.db.php:686] MSG: SELECT command denied to user 'brcampgroundcom3'@'dp-f541d7c895.dreamhostps.com' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'brcampgroundcom3' AND host = 'mysqld22.brcampground.com'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/class.validation.database.service.php[1095]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/database-tests/class.validation.test.db.user.resources.php[30]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/class.validation.abstract.item.php[56]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/class.validation.manager.php[246]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/classes/validation/class.validation.manager.php[214]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/ctrls/classes/class.ctrl.ajax.php[186]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/ctrls/classes/class.ctrl.ajax.php[110]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/main.installer.php[47]
+
+LOG-TIME[DELTA:   0.00054]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.76206]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00234]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00424]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00396]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00083]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/wp_suihgq/brcampground.com"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:09:47
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Betsie River Canoes and Campground"
+HOME URL NEW________: "https://www.brcampground.com"
+SITE URL NEW________: "https://www.brcampground.com"
+CONTENT URL NEW_____: "https://www.brcampground.com/wp-content"
+UPLOAD URL NEW______: "https://www.brcampground.com/wp-content/uploads"
+PLUGINS URL NEW_____: "https://www.brcampground.com/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://www.brcampground.com/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/wp_suihgq/brcampground.com"
+SITE PATH NEW_______: "/home/wp_suihgq/brcampground.com"
+CONTENT PATH NEW____: "/home/wp_suihgq/brcampground.com/wp-content"
+UPLOAD PATH NEW_____: "/home/wp_suihgq/brcampground.com/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/wp_suihgq/brcampground.com/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/wp_suihgq/brcampground.com/wp-content/mu-plugins"
+ARCHIVE ACTION______: "removewpfiles"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "original"
+OTHER CONFIG________: "original"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/wp_suihgq/brcampground.com/dup-installer"
+	DIR : "/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927"
+	FILE: "/home/wp_suihgq/brcampground.com/20240216_betsierivercanoesandcampgro_[HASH]_20240216002927_installer-backup.php"
+	FILE: "/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/20240216_betsierivercanoesandcampgro_[HASH]_20240216002927_archive.zip"
+	FILE: "/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/20240216_betsierivercanoesandcampgro_[HASH]_20240216002927_installer-backup.php"
+	FILE: "/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-bootlog__4582c8c-16002927.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240216_betsierivercanoesandcampgro_[HASH]_20240216002927_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE "wp-config.php" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+*** RESET CONFIG FILES END
+REMOVE WP FILES
+LOG-TIME RESET TIME
+REMOVE FILES
+REMOVE FOLDER "/home/wp_suihgq/brcampground.com/wp-admin"
+REMOVE FOLDER "/home/wp_suihgq/brcampground.com/wp-includes"
+REMOVE FOLDER "/home/wp_suihgq/brcampground.com/wp-content"
+REMOVE FOLDER "/home/wp_suihgq/brcampground.com/wp-content/uploads"
+REMOVE FOLDER "/home/wp_suihgq/brcampground.com/wp-content/plugins"
+REMOVE FOLDER "/home/wp_suihgq/brcampground.com/wp-content/mu-plugins"
+LOG-TIME[DELTA:  39.25898]  MESSAGE:FOLDERS REMOVED
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 39.5388 sec. - Files processed: 1 of 25,711
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1
+--------------------------------------
+PATHS MAPPING : "/home/wp_suihgq/brcampground.com"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0160 sec. - Files processed: 24,857 of 25,711
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 24857
+--------------------------------------
+PATHS MAPPING : "/home/wp_suihgq/brcampground.com"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 26635
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 01:10:36 - RUNTIME: 49.5216 sec. - Files processed: 25,711 of 25,711
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_34m5re_
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 01:10:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_34m5re_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_34m5re_actionscheduler_actions"_______________[ROWS:     135] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_actionscheduler_actions]
+TABLE "wp_34m5re_actionscheduler_claims"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_actionscheduler_claims]
+TABLE "wp_34m5re_actionscheduler_groups"________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_actionscheduler_groups]
+TABLE "wp_34m5re_actionscheduler_logs"__________________[ROWS:     393] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_actionscheduler_logs]
+TABLE "wp_34m5re_commentmeta"___________________________[ROWS:    1603] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_commentmeta]
+TABLE "wp_34m5re_comments"______________________________[ROWS:     204] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_comments]
+TABLE "wp_34m5re_duplicator_backups"____________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_duplicator_backups]
+TABLE "wp_34m5re_duplicator_entities"___________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_duplicator_entities]
+TABLE "wp_34m5re_e_events"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_e_events]
+TABLE "wp_34m5re_e_notes"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_e_notes]
+TABLE "wp_34m5re_e_notes_users_relations"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_e_notes_users_relations]
+TABLE "wp_34m5re_e_submissions"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_e_submissions]
+TABLE "wp_34m5re_e_submissions_actions_log"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_e_submissions_actions_log]
+TABLE "wp_34m5re_e_submissions_values"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_e_submissions_values]
+TABLE "wp_34m5re_ewwwio_images"_________________________[ROWS:     791] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_ewwwio_images]
+TABLE "wp_34m5re_ewwwio_queue"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_ewwwio_queue]
+TABLE "wp_34m5re_hotel_room"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_hotel_room]
+TABLE "wp_34m5re_links"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_links]
+TABLE "wp_34m5re_options"_______________________________[ROWS:     968] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_options]
+TABLE "wp_34m5re_postmeta"______________________________[ROWS:    9440] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_postmeta]
+TABLE "wp_34m5re_posts"_________________________________[ROWS:     570] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_posts]
+TABLE "wp_34m5re_simple_history"________________________[ROWS:   15712] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_simple_history]
+TABLE "wp_34m5re_simple_history_contexts"_______________[ROWS:   86937] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_simple_history_contexts]
+TABLE "wp_34m5re_st_activity"___________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_activity]
+TABLE "wp_34m5re_st_activity_availability"______________[ROWS:    8553] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_activity_availability]
+TABLE "wp_34m5re_st_availability"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_availability]
+TABLE "wp_34m5re_st_cars"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_cars]
+TABLE "wp_34m5re_st_cronjob_log"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_cronjob_log]
+TABLE "wp_34m5re_st_customer"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_customer]
+TABLE "wp_34m5re_st_form_builder"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_form_builder]
+TABLE "wp_34m5re_st_hotel"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_hotel]
+TABLE "wp_34m5re_st_inbox"______________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_inbox]
+TABLE "wp_34m5re_st_journey_car"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_journey_car]
+TABLE "wp_34m5re_st_location_nested"____________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_location_nested]
+TABLE "wp_34m5re_st_location_relationships"_____________[ROWS:     419] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_location_relationships]
+TABLE "wp_34m5re_st_member_packages"____________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_member_packages]
+TABLE "wp_34m5re_st_member_packages_order"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_member_packages_order]
+TABLE "wp_34m5re_st_order_item_meta"____________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_order_item_meta]
+TABLE "wp_34m5re_st_price"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_price]
+TABLE "wp_34m5re_st_properties"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_properties]
+TABLE "wp_34m5re_st_rental"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_rental]
+TABLE "wp_34m5re_st_rental_availability"________________[ROWS:   22895] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_rental_availability]
+TABLE "wp_34m5re_st_room_availability"__________________[ROWS:   13248] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_room_availability]
+TABLE "wp_34m5re_st_tour_availability"__________________[ROWS:    4402] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_tour_availability]
+TABLE "wp_34m5re_st_tours"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_tours]
+TABLE "wp_34m5re_st_withdrawal"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_st_withdrawal]
+TABLE "wp_34m5re_term_relationships"____________________[ROWS:    1456] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_term_relationships]
+TABLE "wp_34m5re_term_taxonomy"_________________________[ROWS:     190] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_term_taxonomy]
+TABLE "wp_34m5re_termmeta"______________________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_termmeta]
+TABLE "wp_34m5re_terms"_________________________________[ROWS:     190] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_terms]
+TABLE "wp_34m5re_usermeta"______________________________[ROWS:     201] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_usermeta]
+TABLE "wp_34m5re_users"_________________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_users]
+TABLE "wp_34m5re_wc_admin_note_actions"_________________[ROWS:     103] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_admin_note_actions]
+TABLE "wp_34m5re_wc_admin_notes"________________________[ROWS:      70] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_admin_notes]
+TABLE "wp_34m5re_wc_category_lookup"____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_category_lookup]
+TABLE "wp_34m5re_wc_customer_lookup"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_customer_lookup]
+TABLE "wp_34m5re_wc_download_log"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_download_log]
+TABLE "wp_34m5re_wc_order_addresses"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_order_addresses]
+TABLE "wp_34m5re_wc_order_coupon_lookup"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_order_coupon_lookup]
+TABLE "wp_34m5re_wc_order_operational_data"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_order_operational_data]
+TABLE "wp_34m5re_wc_order_product_lookup"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_order_product_lookup]
+TABLE "wp_34m5re_wc_order_stats"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_order_stats]
+TABLE "wp_34m5re_wc_order_tax_lookup"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_order_tax_lookup]
+TABLE "wp_34m5re_wc_orders"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_orders]
+TABLE "wp_34m5re_wc_orders_meta"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_orders_meta]
+TABLE "wp_34m5re_wc_product_attributes_lookup"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_product_attributes_lookup]
+TABLE "wp_34m5re_wc_product_download_directories"_______[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_product_download_directories]
+TABLE "wp_34m5re_wc_product_meta_lookup"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_product_meta_lookup]
+TABLE "wp_34m5re_wc_rate_limits"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_rate_limits]
+TABLE "wp_34m5re_wc_reserved_stock"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_reserved_stock]
+TABLE "wp_34m5re_wc_tax_rate_classes"___________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_tax_rate_classes]
+TABLE "wp_34m5re_wc_webhooks"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wc_webhooks]
+TABLE "wp_34m5re_woocommerce_api_keys"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_api_keys]
+TABLE "wp_34m5re_woocommerce_attribute_taxonomies"______[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_attribute_taxonomies]
+TABLE "wp_34m5re_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_downloadable_product_permissions]
+TABLE "wp_34m5re_woocommerce_log"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_log]
+TABLE "wp_34m5re_woocommerce_order_itemmeta"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_order_itemmeta]
+TABLE "wp_34m5re_woocommerce_order_items"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_order_items]
+TABLE "wp_34m5re_woocommerce_payment_tokenmeta"_________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_payment_tokenmeta]
+TABLE "wp_34m5re_woocommerce_payment_tokens"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_payment_tokens]
+TABLE "wp_34m5re_woocommerce_sessions"__________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_sessions]
+TABLE "wp_34m5re_woocommerce_shipping_zone_locations"___[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_shipping_zone_locations]
+TABLE "wp_34m5re_woocommerce_shipping_zone_methods"_____[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_shipping_zone_methods]
+TABLE "wp_34m5re_woocommerce_shipping_zones"____________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_shipping_zones]
+TABLE "wp_34m5re_woocommerce_tax_rate_locations"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_tax_rate_locations]
+TABLE "wp_34m5re_woocommerce_tax_rates"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_woocommerce_tax_rates]
+TABLE "wp_34m5re_wpfm_backup"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wpfm_backup]
+TABLE "wp_34m5re_wpmailsmtp_attachment_files"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wpmailsmtp_attachment_files]
+TABLE "wp_34m5re_wpmailsmtp_debug_events"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wpmailsmtp_debug_events]
+TABLE "wp_34m5re_wpmailsmtp_email_attachments"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wpmailsmtp_email_attachments]
+TABLE "wp_34m5re_wpmailsmtp_email_tracking_events"______[ROWS:      91] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wpmailsmtp_email_tracking_events]
+TABLE "wp_34m5re_wpmailsmtp_email_tracking_links"_______[ROWS:     110] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wpmailsmtp_email_tracking_links]
+TABLE "wp_34m5re_wpmailsmtp_emails_log"_________________[ROWS:      52] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wpmailsmtp_emails_log]
+TABLE "wp_34m5re_wpmailsmtp_tasks_meta"_________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_34m5re_wpmailsmtp_tasks_meta]
+TABLE "wp_ftwmh4_actionscheduler_actions"_______________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_actionscheduler_actions]
+TABLE "wp_ftwmh4_actionscheduler_claims"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_actionscheduler_claims]
+TABLE "wp_ftwmh4_actionscheduler_groups"________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_actionscheduler_groups]
+TABLE "wp_ftwmh4_actionscheduler_logs"__________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_actionscheduler_logs]
+TABLE "wp_ftwmh4_aioseo_cache"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_aioseo_cache]
+TABLE "wp_ftwmh4_aioseo_notifications"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_aioseo_notifications]
+TABLE "wp_ftwmh4_aioseo_posts"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_aioseo_posts]
+TABLE "wp_ftwmh4_commentmeta"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_commentmeta]
+TABLE "wp_ftwmh4_comments"______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_comments]
+TABLE "wp_ftwmh4_links"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_links]
+TABLE "wp_ftwmh4_options"_______________________________[ROWS:     149] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_options]
+TABLE "wp_ftwmh4_postmeta"______________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_postmeta]
+TABLE "wp_ftwmh4_posts"_________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_posts]
+TABLE "wp_ftwmh4_term_relationships"____________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_term_relationships]
+TABLE "wp_ftwmh4_term_taxonomy"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_term_taxonomy]
+TABLE "wp_ftwmh4_termmeta"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_termmeta]
+TABLE "wp_ftwmh4_terms"_________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_terms]
+TABLE "wp_ftwmh4_usermeta"______________________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_usermeta]
+TABLE "wp_ftwmh4_users"_________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_ftwmh4_users]
+TABLE "wp_options_st"___________________________________[ROWS:     605] [EXTRACT|REPLACE] [INST NAME: wp_options_st]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.34 -- Build Server: 8.0.34
+FILE SIZE:	dup-database__[HASH].sql (31.49MB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE-GLOBAL:	NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wp_34m5re_actionscheduler_actions
+DROP TABLE wp_34m5re_actionscheduler_claims
+DROP TABLE wp_34m5re_actionscheduler_groups
+DROP TABLE wp_34m5re_actionscheduler_logs
+DROP TABLE wp_34m5re_commentmeta
+DROP TABLE wp_34m5re_comments
+DROP TABLE wp_34m5re_duplicator_backups
+DROP TABLE wp_34m5re_duplicator_entities
+DROP TABLE wp_34m5re_e_events
+DROP TABLE wp_34m5re_e_notes
+DROP TABLE wp_34m5re_e_notes_users_relations
+DROP TABLE wp_34m5re_e_submissions
+DROP TABLE wp_34m5re_e_submissions_actions_log
+DROP TABLE wp_34m5re_e_submissions_values
+DROP TABLE wp_34m5re_ewwwio_images
+DROP TABLE wp_34m5re_ewwwio_queue
+DROP TABLE wp_34m5re_hotel_room
+DROP TABLE wp_34m5re_links
+DROP TABLE wp_34m5re_options
+DROP TABLE wp_34m5re_postmeta
+DROP TABLE wp_34m5re_posts
+DROP TABLE wp_34m5re_simple_history
+DROP TABLE wp_34m5re_simple_history_contexts
+DROP TABLE wp_34m5re_st_activity
+DROP TABLE wp_34m5re_st_activity_availability
+DROP TABLE wp_34m5re_st_availability
+DROP TABLE wp_34m5re_st_cars
+DROP TABLE wp_34m5re_st_cronjob_log
+DROP TABLE wp_34m5re_st_customer
+DROP TABLE wp_34m5re_st_form_builder
+DROP TABLE wp_34m5re_st_hotel
+DROP TABLE wp_34m5re_st_inbox
+DROP TABLE wp_34m5re_st_journey_car
+DROP TABLE wp_34m5re_st_location_nested
+DROP TABLE wp_34m5re_st_location_relationships
+DROP TABLE wp_34m5re_st_member_packages
+DROP TABLE wp_34m5re_st_member_packages_order
+DROP TABLE wp_34m5re_st_order_item_meta
+DROP TABLE wp_34m5re_st_price
+DROP TABLE wp_34m5re_st_properties
+DROP TABLE wp_34m5re_st_rental
+DROP TABLE wp_34m5re_st_rental_availability
+DROP TABLE wp_34m5re_st_room_availability
+DROP TABLE wp_34m5re_st_tour_availability
+DROP TABLE wp_34m5re_st_tours
+DROP TABLE wp_34m5re_st_withdrawal
+DROP TABLE wp_34m5re_term_relationships
+DROP TABLE wp_34m5re_term_taxonomy
+DROP TABLE wp_34m5re_termmeta
+DROP TABLE wp_34m5re_terms
+DROP TABLE wp_34m5re_usermeta
+DROP TABLE wp_34m5re_users
+DROP TABLE wp_34m5re_wc_admin_note_actions
+DROP TABLE wp_34m5re_wc_admin_notes
+DROP TABLE wp_34m5re_wc_category_lookup
+DROP TABLE wp_34m5re_wc_customer_lookup
+DROP TABLE wp_34m5re_wc_download_log
+DROP TABLE wp_34m5re_wc_order_addresses
+DROP TABLE wp_34m5re_wc_order_coupon_lookup
+DROP TABLE wp_34m5re_wc_order_operational_data
+DROP TABLE wp_34m5re_wc_order_product_lookup
+DROP TABLE wp_34m5re_wc_order_stats
+DROP TABLE wp_34m5re_wc_order_tax_lookup
+DROP TABLE wp_34m5re_wc_orders
+DROP TABLE wp_34m5re_wc_orders_meta
+DROP TABLE wp_34m5re_wc_product_attributes_lookup
+DROP TABLE wp_34m5re_wc_product_download_directories
+DROP TABLE wp_34m5re_wc_product_meta_lookup
+DROP TABLE wp_34m5re_wc_rate_limits
+DROP TABLE wp_34m5re_wc_reserved_stock
+DROP TABLE wp_34m5re_wc_tax_rate_classes
+DROP TABLE wp_34m5re_wc_webhooks
+DROP TABLE wp_34m5re_woocommerce_api_keys
+DROP TABLE wp_34m5re_woocommerce_attribute_taxonomies
+DROP TABLE wp_34m5re_woocommerce_downloadable_product_permissions
+DROP TABLE wp_34m5re_woocommerce_log
+DROP TABLE wp_34m5re_woocommerce_order_itemmeta
+DROP TABLE wp_34m5re_woocommerce_order_items
+DROP TABLE wp_34m5re_woocommerce_payment_tokenmeta
+DROP TABLE wp_34m5re_woocommerce_payment_tokens
+DROP TABLE wp_34m5re_woocommerce_sessions
+DROP TABLE wp_34m5re_woocommerce_shipping_zone_locations
+DROP TABLE wp_34m5re_woocommerce_shipping_zone_methods
+DROP TABLE wp_34m5re_woocommerce_shipping_zones
+DROP TABLE wp_34m5re_woocommerce_tax_rate_locations
+DROP TABLE wp_34m5re_woocommerce_tax_rates
+DROP TABLE wp_34m5re_wpfm_backup
+DROP TABLE wp_34m5re_wpmailsmtp_attachment_files
+DROP TABLE wp_34m5re_wpmailsmtp_debug_events
+DROP TABLE wp_34m5re_wpmailsmtp_email_attachments
+DROP TABLE wp_34m5re_wpmailsmtp_email_tracking_events
+DROP TABLE wp_34m5re_wpmailsmtp_email_tracking_links
+DROP TABLE wp_34m5re_wpmailsmtp_emails_log
+DROP TABLE wp_34m5re_wpmailsmtp_tasks_meta
+DROP TABLE wp_ftwmh4_actionscheduler_actions
+DROP TABLE wp_ftwmh4_actionscheduler_claims
+DROP TABLE wp_ftwmh4_actionscheduler_groups
+DROP TABLE wp_ftwmh4_actionscheduler_logs
+DROP TABLE wp_ftwmh4_aioseo_cache
+DROP TABLE wp_ftwmh4_aioseo_notifications
+DROP TABLE wp_ftwmh4_aioseo_posts
+DROP TABLE wp_ftwmh4_commentmeta
+DROP TABLE wp_ftwmh4_comments
+DROP TABLE wp_ftwmh4_links
+DROP TABLE wp_ftwmh4_options
+DROP TABLE wp_ftwmh4_postmeta
+DROP TABLE wp_ftwmh4_posts
+DROP TABLE wp_ftwmh4_term_relationships
+DROP TABLE wp_ftwmh4_term_taxonomy
+DROP TABLE wp_ftwmh4_termmeta
+DROP TABLE wp_ftwmh4_terms
+DROP TABLE wp_ftwmh4_usermeta
+DROP TABLE wp_ftwmh4_users
+DROP TABLE wp_options_st
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`brcampgroundcom3`@`%`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.34 -- Build Server: 8.0.34
+FILE SIZE:	dup-database__[HASH].sql (31.49MB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE-GLOBAL:	NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wp_34m5re_actionscheduler_actions
+DROP TABLE wp_34m5re_actionscheduler_claims
+DROP TABLE wp_34m5re_actionscheduler_groups
+DROP TABLE wp_34m5re_actionscheduler_logs
+DROP TABLE wp_34m5re_commentmeta
+DROP TABLE wp_34m5re_comments
+DROP TABLE wp_34m5re_duplicator_backups
+DROP TABLE wp_34m5re_duplicator_entities
+DROP TABLE wp_34m5re_e_events
+DROP TABLE wp_34m5re_e_notes
+DROP TABLE wp_34m5re_e_notes_users_relations
+DROP TABLE wp_34m5re_e_submissions
+DROP TABLE wp_34m5re_e_submissions_actions_log
+DROP TABLE wp_34m5re_e_submissions_values
+DROP TABLE wp_34m5re_ewwwio_images
+DROP TABLE wp_34m5re_usermeta
+DROP TABLE wp_34m5re_users
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`brcampgroundcom3`@`%`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 99456
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 444398
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1588921
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 10659884
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 14954082
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 17314869
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 17725283
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 19823032
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 21789722
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 24645870
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 24945805
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 25082340
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 25213446
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 25738005
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 29397556
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 29745059
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 30107218
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 33014862
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	17
+RENAMED TABLES:	0
+QUERIES RAN:	439
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_34m5re_actionscheduler_actions"_______________[ROWS:   135]
+TABLE "wp_34m5re_actionscheduler_claims"________________[ROWS:     0]
+TABLE "wp_34m5re_actionscheduler_groups"________________[ROWS:     5]
+TABLE "wp_34m5re_actionscheduler_logs"__________________[ROWS:   393]
+TABLE "wp_34m5re_commentmeta"___________________________[ROWS:  1603]
+TABLE "wp_34m5re_comments"______________________________[ROWS:   204]
+TABLE "wp_34m5re_duplicator_backups"____________________[ROWS:     2]
+TABLE "wp_34m5re_duplicator_entities"___________________[ROWS:     9]
+TABLE "wp_34m5re_e_events"______________________________[ROWS:     0]
+TABLE "wp_34m5re_e_notes"_______________________________[ROWS:     0]
+TABLE "wp_34m5re_e_notes_users_relations"_______________[ROWS:     0]
+TABLE "wp_34m5re_e_submissions"_________________________[ROWS:     0]
+TABLE "wp_34m5re_e_submissions_actions_log"_____________[ROWS:     0]
+TABLE "wp_34m5re_e_submissions_values"__________________[ROWS:     0]
+TABLE "wp_34m5re_ewwwio_images"_________________________[ROWS:   791]
+TABLE "wp_34m5re_ewwwio_queue"__________________________[ROWS:     0]
+TABLE "wp_34m5re_hotel_room"____________________________[ROWS:     0]
+TABLE "wp_34m5re_links"_________________________________[ROWS:     0]
+TABLE "wp_34m5re_options"_______________________________[ROWS:   968]
+TABLE "wp_34m5re_postmeta"______________________________[ROWS:  9440]
+TABLE "wp_34m5re_posts"_________________________________[ROWS:   570]
+TABLE "wp_34m5re_simple_history"________________________[ROWS: 15712]
+TABLE "wp_34m5re_simple_history_contexts"_______________[ROWS: 86937]
+TABLE "wp_34m5re_st_activity"___________________________[ROWS:     3]
+TABLE "wp_34m5re_st_activity_availability"______________[ROWS:  8553]
+TABLE "wp_34m5re_st_availability"_______________________[ROWS:     0]
+TABLE "wp_34m5re_st_cars"_______________________________[ROWS:     0]
+TABLE "wp_34m5re_st_cronjob_log"________________________[ROWS:     0]
+TABLE "wp_34m5re_st_customer"___________________________[ROWS:     0]
+TABLE "wp_34m5re_st_form_builder"_______________________[ROWS:     1]
+TABLE "wp_34m5re_st_hotel"______________________________[ROWS:     0]
+TABLE "wp_34m5re_st_inbox"______________________________[ROWS:     2]
+TABLE "wp_34m5re_st_journey_car"________________________[ROWS:     0]
+TABLE "wp_34m5re_st_location_nested"____________________[ROWS:     4]
+TABLE "wp_34m5re_st_location_relationships"_____________[ROWS:   419]
+TABLE "wp_34m5re_st_member_packages"____________________[ROWS:     4]
+TABLE "wp_34m5re_st_member_packages_order"______________[ROWS:     0]
+TABLE "wp_34m5re_st_order_item_meta"____________________[ROWS:     4]
+TABLE "wp_34m5re_st_price"______________________________[ROWS:     0]
+TABLE "wp_34m5re_st_properties"_________________________[ROWS:     1]
+TABLE "wp_34m5re_st_rental"_____________________________[ROWS:     0]
+TABLE "wp_34m5re_st_rental_availability"________________[ROWS: 22895]
+TABLE "wp_34m5re_st_room_availability"__________________[ROWS: 13248]
+TABLE "wp_34m5re_st_tour_availability"__________________[ROWS:  4402]
+TABLE "wp_34m5re_st_tours"______________________________[ROWS:     0]
+TABLE "wp_34m5re_st_withdrawal"_________________________[ROWS:     0]
+TABLE "wp_34m5re_term_relationships"____________________[ROWS:  1456]
+TABLE "wp_34m5re_term_taxonomy"_________________________[ROWS:   190]
+TABLE "wp_34m5re_termmeta"______________________________[ROWS:    12]
+TABLE "wp_34m5re_terms"_________________________________[ROWS:   190]
+TABLE "wp_34m5re_usermeta"______________________________[ROWS:   201]
+TABLE "wp_34m5re_users"_________________________________[ROWS:     6]
+TABLE "wp_34m5re_wc_admin_note_actions"_________________[ROWS:   103]
+TABLE "wp_34m5re_wc_admin_notes"________________________[ROWS:    70]
+TABLE "wp_34m5re_wc_category_lookup"____________________[ROWS:     1]
+TABLE "wp_34m5re_wc_customer_lookup"____________________[ROWS:     0]
+TABLE "wp_34m5re_wc_download_log"_______________________[ROWS:     0]
+TABLE "wp_34m5re_wc_order_addresses"____________________[ROWS:     0]
+TABLE "wp_34m5re_wc_order_coupon_lookup"________________[ROWS:     0]
+TABLE "wp_34m5re_wc_order_operational_data"_____________[ROWS:     0]
+TABLE "wp_34m5re_wc_order_product_lookup"_______________[ROWS:     0]
+TABLE "wp_34m5re_wc_order_stats"________________________[ROWS:     0]
+TABLE "wp_34m5re_wc_order_tax_lookup"___________________[ROWS:     0]
+TABLE "wp_34m5re_wc_orders"_____________________________[ROWS:     0]
+TABLE "wp_34m5re_wc_orders_meta"________________________[ROWS:     0]
+TABLE "wp_34m5re_wc_product_attributes_lookup"__________[ROWS:     0]
+TABLE "wp_34m5re_wc_product_download_directories"_______[ROWS:     2]
+TABLE "wp_34m5re_wc_product_meta_lookup"________________[ROWS:     0]
+TABLE "wp_34m5re_wc_rate_limits"________________________[ROWS:     0]
+TABLE "wp_34m5re_wc_reserved_stock"_____________________[ROWS:     0]
+TABLE "wp_34m5re_wc_tax_rate_classes"___________________[ROWS:     2]
+TABLE "wp_34m5re_wc_webhooks"___________________________[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_api_keys"__________________[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_attribute_taxonomies"______[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_log"_______________________[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_order_itemmeta"____________[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_order_items"_______________[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_payment_tokenmeta"_________[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_payment_tokens"____________[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_sessions"__________________[ROWS:     2]
+TABLE "wp_34m5re_woocommerce_shipping_zone_locations"___[ROWS:     1]
+TABLE "wp_34m5re_woocommerce_shipping_zone_methods"_____[ROWS:     1]
+TABLE "wp_34m5re_woocommerce_shipping_zones"____________[ROWS:     1]
+TABLE "wp_34m5re_woocommerce_tax_rate_locations"________[ROWS:     0]
+TABLE "wp_34m5re_woocommerce_tax_rates"_________________[ROWS:     0]
+TABLE "wp_34m5re_wpfm_backup"___________________________[ROWS:     0]
+TABLE "wp_34m5re_wpmailsmtp_attachment_files"___________[ROWS:     0]
+TABLE "wp_34m5re_wpmailsmtp_debug_events"_______________[ROWS:     0]
+TABLE "wp_34m5re_wpmailsmtp_email_attachments"__________[ROWS:     0]
+TABLE "wp_34m5re_wpmailsmtp_email_tracking_events"______[ROWS:    91]
+TABLE "wp_34m5re_wpmailsmtp_email_tracking_links"_______[ROWS:   110]
+TABLE "wp_34m5re_wpmailsmtp_emails_log"_________________[ROWS:    52]
+TABLE "wp_34m5re_wpmailsmtp_tasks_meta"_________________[ROWS:     2]
+TABLE "wp_ftwmh4_actionscheduler_actions"_______________[ROWS:     4]
+TABLE "wp_ftwmh4_actionscheduler_claims"________________[ROWS:     0]
+TABLE "wp_ftwmh4_actionscheduler_groups"________________[ROWS:     2]
+TABLE "wp_ftwmh4_actionscheduler_logs"__________________[ROWS:     4]
+TABLE "wp_ftwmh4_aioseo_cache"__________________________[ROWS:     0]
+TABLE "wp_ftwmh4_aioseo_notifications"__________________[ROWS:     0]
+TABLE "wp_ftwmh4_aioseo_posts"__________________________[ROWS:     0]
+TABLE "wp_ftwmh4_commentmeta"___________________________[ROWS:     0]
+TABLE "wp_ftwmh4_comments"______________________________[ROWS:     1]
+TABLE "wp_ftwmh4_links"_________________________________[ROWS:     0]
+TABLE "wp_ftwmh4_options"_______________________________[ROWS:   149]
+TABLE "wp_ftwmh4_postmeta"______________________________[ROWS:     2]
+TABLE "wp_ftwmh4_posts"_________________________________[ROWS:     3]
+TABLE "wp_ftwmh4_term_relationships"____________________[ROWS:     1]
+TABLE "wp_ftwmh4_term_taxonomy"_________________________[ROWS:     1]
+TABLE "wp_ftwmh4_termmeta"______________________________[ROWS:     0]
+TABLE "wp_ftwmh4_terms"_________________________________[ROWS:     1]
+TABLE "wp_ftwmh4_usermeta"______________________________[ROWS:    17]
+TABLE "wp_ftwmh4_users"_________________________________[ROWS:     1]
+TABLE "wp_options_st"___________________________________[ROWS:   605]
+
+INSERT DATA RUNTIME: 314.5894 sec.
+STEP-2 COMPLETE @ 01:15:53 - RUNTIME: 314.5894 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:15:53
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 192M], [inWpConfig = 1]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = 1]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_34m5re_options]
+	`option_name` = "duplicator_pro_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+DATABASE OPTIONS DELETED [ROWS:   129]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     2]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_34m5re_actionscheduler_actions"_______________[ROWS:   135][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_34m5re_actionscheduler_claims"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_actionscheduler_groups"________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_34m5re_actionscheduler_logs"__________________[ROWS:   393][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_34m5re_commentmeta"___________________________[ROWS:  1603][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_commentmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_commentmeta][1]
+
+EVALUATE TABLE: "wp_34m5re_comments"______________________________[ROWS:   204][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_comments][0]
+
+EVALUATE TABLE: "wp_34m5re_duplicator_backups"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_duplicator_entities"___________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_duplicator_entities][0]
+
+EVALUATE TABLE: "wp_34m5re_e_events"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_e_notes"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_e_notes_users_relations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_e_submissions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_e_submissions_actions_log"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_e_submissions_values"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_ewwwio_images"_________________________[ROWS:   791][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_ewwwio_images][0]
+
+EVALUATE TABLE: "wp_34m5re_ewwwio_queue"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_hotel_room"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_links"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_options"_______________________________[ROWS:   839][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_options][0]
+
+EVALUATE TABLE: "wp_34m5re_postmeta"______________________________[ROWS:  9440][PG:  10][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_postmeta][9]
+
+EVALUATE TABLE: "wp_34m5re_posts"_________________________________[ROWS:   570][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_posts][0]
+
+EVALUATE TABLE: "wp_34m5re_simple_history"________________________[ROWS: 15712][PG:  16][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history][15]
+
+EVALUATE TABLE: "wp_34m5re_simple_history_contexts"_______________[ROWS: 86937][PG:  87][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][15]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][16]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][17]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][18]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][19]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][20]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][21]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][22]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][23]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][24]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][25]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][26]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][27]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][28]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][29]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][30]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][31]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][32]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][33]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][34]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][35]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][36]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][37]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][38]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][39]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][40]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][41]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][42]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][43]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][44]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][45]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][46]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][47]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][48]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][49]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][50]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][51]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][52]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][53]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][54]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][55]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][56]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][57]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][58]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][59]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][60]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][61]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][62]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][63]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][64]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][65]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][66]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][67]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][68]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][69]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][70]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][71]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][72]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][73]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][74]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][75]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][76]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][77]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][78]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][79]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][80]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][81]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][82]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][83]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][84]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][85]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_simple_history_contexts][86]
+
+EVALUATE TABLE: "wp_34m5re_st_activity"___________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity][0]
+
+EVALUATE TABLE: "wp_34m5re_st_activity_availability"______________[ROWS:  8553][PG:   9][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_activity_availability][8]
+
+EVALUATE TABLE: "wp_34m5re_st_availability"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_cars"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_cronjob_log"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_customer"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_form_builder"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_form_builder][0]
+
+EVALUATE TABLE: "wp_34m5re_st_hotel"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_inbox"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_inbox][0]
+
+EVALUATE TABLE: "wp_34m5re_st_journey_car"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_location_nested"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_location_nested][0]
+
+EVALUATE TABLE: "wp_34m5re_st_location_relationships"_____________[ROWS:   419][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_location_relationships][0]
+
+EVALUATE TABLE: "wp_34m5re_st_member_packages"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_member_packages][0]
+
+EVALUATE TABLE: "wp_34m5re_st_member_packages_order"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_order_item_meta"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_order_item_meta][0]
+
+EVALUATE TABLE: "wp_34m5re_st_price"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_properties"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_properties][0]
+
+EVALUATE TABLE: "wp_34m5re_st_rental"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_rental_availability"________________[ROWS: 22895][PG:  23][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][15]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][16]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][17]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][18]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][19]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][20]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][21]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_rental_availability][22]
+
+EVALUATE TABLE: "wp_34m5re_st_room_availability"__________________[ROWS: 13248][PG:  14][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_room_availability][13]
+
+EVALUATE TABLE: "wp_34m5re_st_tour_availability"__________________[ROWS:  4402][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_tour_availability][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_tour_availability][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_tour_availability][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_tour_availability][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_st_tour_availability][4]
+
+EVALUATE TABLE: "wp_34m5re_st_tours"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_st_withdrawal"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_term_relationships"____________________[ROWS:  1456][PG:   2][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_term_taxonomy"_________________________[ROWS:   190][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_34m5re_termmeta"______________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_termmeta][0]
+
+EVALUATE TABLE: "wp_34m5re_terms"_________________________________[ROWS:   190][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_terms][0]
+
+EVALUATE TABLE: "wp_34m5re_usermeta"______________________________[ROWS:   201][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_usermeta][0]
+
+EVALUATE TABLE: "wp_34m5re_users"_________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_users][0]
+
+EVALUATE TABLE: "wp_34m5re_wc_admin_note_actions"_________________[ROWS:   103][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_34m5re_wc_admin_notes"________________________[ROWS:    70][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_34m5re_wc_category_lookup"____________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_customer_lookup"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_download_log"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_order_addresses"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_order_coupon_lookup"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_order_operational_data"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_order_product_lookup"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_order_stats"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_order_tax_lookup"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_orders"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_orders_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_product_attributes_lookup"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_product_download_directories"_______[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wp_34m5re_wc_product_meta_lookup"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_rate_limits"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_reserved_stock"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wc_tax_rate_classes"___________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_34m5re_wc_webhooks"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_api_keys"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_attribute_taxonomies"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_log"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_order_itemmeta"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_order_items"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_payment_tokenmeta"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_payment_tokens"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_sessions"__________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_shipping_zone_locations"___[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_woocommerce_shipping_zone_locations][0]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_shipping_zone_methods"_____[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_shipping_zones"____________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_woocommerce_shipping_zones][0]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_tax_rate_locations"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_woocommerce_tax_rates"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wpfm_backup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wpmailsmtp_attachment_files"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wpmailsmtp_debug_events"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wpmailsmtp_email_attachments"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_34m5re_wpmailsmtp_email_tracking_events"______[ROWS:    91][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_wpmailsmtp_email_tracking_events][0]
+
+EVALUATE TABLE: "wp_34m5re_wpmailsmtp_email_tracking_links"_______[ROWS:   110][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_wpmailsmtp_email_tracking_links][0]
+
+EVALUATE TABLE: "wp_34m5re_wpmailsmtp_emails_log"_________________[ROWS:    52][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_wpmailsmtp_emails_log][0]
+
+EVALUATE TABLE: "wp_34m5re_wpmailsmtp_tasks_meta"_________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_34m5re_wpmailsmtp_tasks_meta][0]
+
+EVALUATE TABLE: "wp_ftwmh4_actionscheduler_actions"_______________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_ftwmh4_actionscheduler_claims"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ftwmh4_actionscheduler_groups"________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_ftwmh4_actionscheduler_logs"__________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_ftwmh4_aioseo_cache"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ftwmh4_aioseo_notifications"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ftwmh4_aioseo_posts"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ftwmh4_commentmeta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ftwmh4_comments"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_comments][0]
+
+EVALUATE TABLE: "wp_ftwmh4_links"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ftwmh4_options"_______________________________[ROWS:   149][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_options][0]
+
+EVALUATE TABLE: "wp_ftwmh4_postmeta"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_postmeta][0]
+
+EVALUATE TABLE: "wp_ftwmh4_posts"_________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_posts][0]
+
+EVALUATE TABLE: "wp_ftwmh4_term_relationships"____________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ftwmh4_term_taxonomy"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_ftwmh4_termmeta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ftwmh4_terms"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_terms][0]
+
+EVALUATE TABLE: "wp_ftwmh4_usermeta"______________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_usermeta][0]
+
+EVALUATE TABLE: "wp_ftwmh4_users"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_ftwmh4_users][0]
+
+EVALUATE TABLE: "wp_options_st"___________________________________[ROWS:   605][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	CHUNK ACTION: CURRENT [search_replace][wp_options_st][0]
+--------------------------------------
+SCANNED:	Tables:114 	|	 Rows:168000 	|	 Cells:1421001 
+UPDATED:	Tables:0 	|	 Rows:0 	|	 Cells:0 
+ERRORS:		0 
+RUNTIME:	3.077400 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+STEP-3 CHUNK STOP @ 01:15:58 - RUNTIME: 5.0300 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/wp_suihgq/brcampground.com/wp-config.php
+Retained original entry htaccess target:/home/wp_suihgq/brcampground.com/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""brcampground_com_2""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""mysqld22.brcampground.com""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE WP_MEMORY_LIMIT "192M"
+	WP CONFIG UPDATE WP_MAX_MEMORY_LIMIT "256M"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+UPDATE OPTION home ON TABLE wp_34m5re_options
+UPDATE OPTION siteurl ON TABLE wp_34m5re_options
+UPDATE OPTION duplicator_pro_exe_safe_mode ON TABLE wp_34m5re_options
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/wp_suihgq/brcampground.com"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:15:58 - RUNTIME: 0.1187 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/src/Core/Bootstrap.php:76] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/main.installer.php|LINE:76]
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[NOTICE] Plugin WPBakery Page Builder disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Can't update new .htaccess file
+	SECTIONS: general
+	LONG MSG: Retaining the original .htaccess files may cause issues with the initial setup of your site. If you encounter any problems, check the contents of the configuration files manually or reinstall the site again by changing the configuration file settings.
+
+-----------------------
+[NOTICE] WPBakery Page Builder has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate WPBakery Page Builder after you login.
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/wp_suihgq/brcampground.com/wp-login.php
+E_DEPRECATED Creation of dynamic property STTTravelerDuplicate::$pluginPath is deprecated
+	FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-dupliate-service/traveler-duplicate.php[21]
+	--- TRACE ---
+	CLASS___: STTTravelerDuplicate->__constructFILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-dupliate-service/traveler-duplicate.php[88]
+	CLASS___: STTTravelerDuplicate::inst    FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-dupliate-service/traveler-duplicate.php[96]
+	FUNCTION: include_once                  FILE: /home/wp_suihgq/brcampground.com/wp-settings.php[473]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-config.php[108]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/wp_suihgq/brcampground.com/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-content/wp_test_script_4582c8c-16002927.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_DEPRECATED Creation of dynamic property STTTravelerDuplicate::$pluginUrl is deprecated
+	FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-dupliate-service/traveler-duplicate.php[22]
+	--- TRACE ---
+	CLASS___: STTTravelerDuplicate->__constructFILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-dupliate-service/traveler-duplicate.php[88]
+	CLASS___: STTTravelerDuplicate::inst    FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-dupliate-service/traveler-duplicate.php[96]
+	FUNCTION: include_once                  FILE: /home/wp_suihgq/brcampground.com/wp-settings.php[473]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-config.php[108]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/wp_suihgq/brcampground.com/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-content/wp_test_script_4582c8c-16002927.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_DEPRECATED Creation of dynamic property STTTwilioSMS::$pluginPath is deprecated
+	FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-twilio-sms/traveler-sms.php[23]
+	--- TRACE ---
+	CLASS___: STTTwilioSMS->__construct     FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-twilio-sms/traveler-sms.php[75]
+	CLASS___: STTTwilioSMS::inst            FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-twilio-sms/traveler-sms.php[83]
+	FUNCTION: include_once                  FILE: /home/wp_suihgq/brcampground.com/wp-settings.php[473]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-config.php[108]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/wp_suihgq/brcampground.com/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-content/wp_test_script_4582c8c-16002927.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+E_DEPRECATED Creation of dynamic property STTTwilioSMS::$pluginUrl is deprecated
+	FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-twilio-sms/traveler-sms.php[24]
+	--- TRACE ---
+	CLASS___: STTTwilioSMS->__construct     FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-twilio-sms/traveler-sms.php[75]
+	CLASS___: STTTwilioSMS::inst            FILE: /home/wp_suihgq/brcampground.com/wp-content/plugins/traveler-twilio-sms/traveler-sms.php[83]
+	FUNCTION: include_once                  FILE: /home/wp_suihgq/brcampground.com/wp-settings.php[473]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-config.php[108]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/wp_suihgq/brcampground.com/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/wp_suihgq/brcampground.com/wp-content/wp_test_script_4582c8c-16002927.php[139]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base 
+
+
+====================================
+LOG-TIME[/home/wp_suihgq/brcampground.com/wp-content/backups-dup-pro/imports/dup-installer-1b1f1fc-16002927/ctrls/ctrl.base.php:191][DELTA:   0.08811]  MESSAGE:END RENDER PAGE
