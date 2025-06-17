@@ -129,6 +129,22 @@
     position: relative;
     box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
+
+/* Availability row */
+.availability-row th,
+.availability-row td {
+    background-color: #f0f8ff;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+.availability-label {
+    text-align: left;
+    font-weight: bold;
+}
+.availability-row .none-available {
+    background-color: #ffd6d6;
+}
 .calendar-modal-close {
     position: absolute;
     right: 15px;

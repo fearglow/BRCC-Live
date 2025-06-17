@@ -283,9 +283,10 @@ function load_calendar_v2_ajax() {
     $debugHtml = build_debug_html($bookings, $m, $y);
 
     wp_send_json_success([
-        'html'       => $html,
-        'bookings'   => $bookings,
-        'debug_html' => $debugHtml
+        'html'        => $html,
+        'bookings'    => $bookings,
+        'debug_html'  => $debugHtml,
+        'total_sites' => count($campsites)
     ]);
 }
 add_action('wp_ajax_load_calendar_v2', 'load_calendar_v2_ajax');
@@ -294,13 +295,20 @@ add_action('wp_ajax_nopriv_load_calendar_v2', 'load_calendar_v2_ajax');
 // build table
 function generate_calendar_v2_html($month, $year, $campsites, $bookings) {
     $num_days = cal_days_in_month(CAL_GREGORIAN, $month, $year);
+    $total_sites = count($campsites);
     ob_start(); ?>
-    <table class="calendar-grid">
+    <table class="calendar-grid" data-total-sites="<?php echo $total_sites; ?>">
       <thead>
         <tr>
           <th class="empty-header-cell"></th>
           <?php for ($d = 1; $d <= $num_days; $d++): ?>
             <th class="header-day"><?php echo $d; ?></th>
+          <?php endfor; ?>
+        </tr>
+        <tr class="availability-row">
+          <th class="availability-label">Available</th>
+          <?php for ($d = 1; $d <= $num_days; $d++): ?>
+            <th class="availability-cell" data-day="<?php echo $d; ?>"></th>
           <?php endfor; ?>
         </tr>
       </thead>

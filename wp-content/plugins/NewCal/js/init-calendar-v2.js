@@ -24,6 +24,7 @@ jQuery(document).ready(function($) {
     });
 
     // 3) loadCalendar AJAX
+    var totalSites = 0;
     function loadCalendar(m, y) {
         $.ajax({
             url: bookingData.ajax_url,
@@ -45,11 +46,17 @@ jQuery(document).ready(function($) {
                     // Update month/year header
                     updateCalendarHeader(m, y);
 
+                    // Store total sites for availability calc
+                    totalSites = parseInt(response.data.total_sites) || 0;
+
                     // Render pills
                     renderBookings(response.data.bookings, m, y);
 
                     // Highlight today
                     highlightToday(m, y);
+
+                    // Update availability counts
+                    updateAvailability(response.data.bookings, m, y, totalSites);
                 } else {
                     console.log('No data returned or success=false.');
                 }
@@ -249,6 +256,39 @@ jQuery(document).ready(function($) {
             $('#custom-calendar-v2')
                 .find('.day-cell[data-day="' + d + '"]')
                 .addClass('today');
+        }
+    }
+
+    // 10) Update availability counts per day
+    function updateAvailability(bookings, m, y, total) {
+        if (!Array.isArray(bookings) || !total) return;
+        var daysInMonth = new Date(y, m, 0).getDate();
+        var counts = {};
+        for (var d = 1; d <= daysInMonth; d++) {
+            counts[d] = 0;
+        }
+        bookings.forEach(function(b) {
+            var start = new Date((b.start || '').replace(/-/g, '/'));
+            var end   = new Date((b.end   || '').replace(/-/g, '/'));
+            if (isNaN(start) || isNaN(end)) return;
+
+            var startDay = start.getDate();
+            var endDay   = end.getDate();
+            var isPrevMonth = (start.getMonth() + 1 < m) || (start.getFullYear() < y);
+            if (isPrevMonth) startDay = 1;
+            var isNextMonth = (end.getMonth() + 1 > m) || (end.getFullYear() > y);
+            if (isNextMonth) endDay = daysInMonth;
+
+            for (var d = startDay; d <= endDay; d++) {
+                counts[d]++;
+            }
+        });
+
+        for (var d = 1; d <= daysInMonth; d++) {
+            var avail = total - (counts[d] || 0);
+            var cell = $('.availability-row .availability-cell[data-day="' + d + '"]');
+            cell.text(avail);
+            cell.toggleClass('none-available', avail <= 0);
         }
     }
 
