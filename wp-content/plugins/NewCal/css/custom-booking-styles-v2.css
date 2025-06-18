@@ -19,6 +19,15 @@
     height: 32px;
     box-sizing: border-box;
 }
+
+/* Highlight availability */
+.day-cell.available-cell {
+    background-color: #e8f5e9;
+}
+
+.day-cell.booked-cell {
+    background-color: #ffeaea;
+}
 .campsite-name {
     background-color: #f9f9f9;
     text-align: left;

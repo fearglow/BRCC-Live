@@ -176,7 +176,7 @@ function fetch_bookings() {
         LEFT JOIN {$wpdb->postmeta} pm_guest_title ON oim.order_item_id = pm_guest_title.post_id AND pm_guest_title.meta_key = 'guest_title'
         LEFT JOIN {$wpdb->postmeta} pm_booking_post_type ON oim.order_item_id = pm_booking_post_type.post_id AND pm_booking_post_type.meta_key = 'st_booking_post_type'
         LEFT JOIN {$wpdb->postmeta} pm_starttime ON oim.order_item_id = pm_starttime.post_id AND pm_starttime.meta_key = 'starttime'
-        WHERE oim.status IN ('complete','wc-completed','pending','incomplete','wc-cancelled','cancelled')
+        WHERE oim.status IN ('complete','wc-completed','wp-completed')
     ";
     $rows = $wpdb->get_results($query, ARRAY_A);
     if (!$rows) return array();
@@ -320,7 +320,7 @@ function generate_calendar_v2_html($month, $year, $campsites, $bookings) {
           <tr class="calendar-row" data-site="<?php echo esc_attr($site['site_code']); ?>">
             <td class="campsite-name"><?php echo esc_html($site['site_code']); ?></td>
             <?php for ($d = 1; $d <= $num_days; $d++): ?>
-              <td class="day-cell" data-day="<?php echo $d; ?>"></td>
+              <td class="day-cell available-cell" data-day="<?php echo $d; ?>"></td>
             <?php endfor; ?>
           </tr>
         <?php endforeach; ?>

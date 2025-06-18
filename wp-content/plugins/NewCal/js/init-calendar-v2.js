@@ -48,7 +48,12 @@
     function renderBookings(bookings, m, y) {
         if (!Array.isArray(bookings)) return;
 
+        // Reset cells
+        $('.calendar-row .day-cell').addClass('available-cell').removeClass('booked-cell');
+
         bookings.forEach(function(booking) {
+            var allowedStatuses = ['complete', 'wc-completed', 'wp-completed'];
+            if (allowedStatuses.indexOf(booking.status) === -1) return;
             var siteKey = (booking.site || '').trim();
             var row = $('.calendar-row[data-site="' + siteKey + '"]');
             if (!row.length) return;
@@ -106,12 +111,18 @@
             var startCell = row.find('.day-cell[data-day="' + startDay + '"]');
 
             if (isNextMonth) {
-                startCell.attr('colspan', spanDays).append(pill);
+                startCell.attr('colspan', spanDays)
+                    .append(pill)
+                    .removeClass('available-cell')
+                    .addClass('booked-cell');
                 for (var d = startDay + 1; d <= endDay; d++) {
                     row.find('.day-cell[data-day="' + d + '"]').remove();
                 }
             } else {
-                startCell.attr('colspan', Math.max(spanDays - 1, 1)).append(pill);
+                startCell.attr('colspan', Math.max(spanDays - 1, 1))
+                    .append(pill)
+                    .removeClass('available-cell')
+                    .addClass('booked-cell');
                 for (var d = startDay + 1; d < endDay; d++) {
                     row.find('.day-cell[data-day="' + d + '"]').remove();
                 }
@@ -119,7 +130,9 @@
                 var endCell = row.find('.day-cell[data-day="' + endDay + '"]');
                 var $indicator = $('<div class="checkout-half-pill"></div>')
                     .css('background-color', getStatusColor(booking.status));
-                endCell.addClass('checkout-cell').append($indicator);
+                endCell.addClass('checkout-cell booked-cell')
+                    .removeClass('available-cell')
+                    .append($indicator);
             }
 
             // Final day marker improved with partial color
@@ -311,6 +324,8 @@
             counts[d] = 0;
         }
         bookings.forEach(function(b) {
+            var allowedStatuses = ['complete', 'wc-completed', 'wp-completed'];
+            if (allowedStatuses.indexOf(b.status) === -1) return;
             var start = new Date((b.start || '').replace(/-/g, '/'));
             var end   = new Date((b.end   || '').replace(/-/g, '/'));
             if (isNaN(start) || isNaN(end)) return;
