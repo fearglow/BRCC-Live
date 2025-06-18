@@ -9,11 +9,15 @@
 }
 .header-day, .day-cell {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 6px;
     text-align: center;
     vertical-align: middle;
     position: relative;
     white-space: nowrap;
+}
+.day-cell {
+    height: 32px;
+    box-sizing: border-box;
 }
 .campsite-name {
     background-color: #f9f9f9;
@@ -35,15 +39,16 @@
     color: #fff;
     text-align: center;
     font-size: 12px;
-    border-radius: 5px;
+    border-radius: 4px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding: 5px;
+    padding: 3px 5px;
     width: 100%;
     display: block;
-    margin-bottom: 2px;
-    margin-left: 15px;
+    margin: 0;
+    line-height: 1.2;
+    box-sizing: border-box;
     position: relative;
 }
 .arrow-left {
@@ -60,19 +65,7 @@
     background-color: #fffacd; /* Light yellow highlight */
 }
 
-/* Slash effect on the final day */
-.checkout-day {
-    position: relative;
-}
-.checkout-day::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -10px;
-    width: 10px;
-    height: 100%;
-    background-color: #007bff;
-}
+/* End day marker removed for cleaner look */
 
 /* CONTROLS */
 .calendar-controls {

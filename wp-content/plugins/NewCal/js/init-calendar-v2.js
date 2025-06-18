@@ -136,9 +136,7 @@ jQuery(document).ready(function($) {
 				row.find('.day-cell[data-day="' + d + '"]').remove();
 			}
 
-            // Mark final day with slash
-            var lastDayCell = row.find('.day-cell[data-day="' + endDay + '"]');
-			lastDayCell.addClass('checkout-day');
+            // Final day marker removed for cleaner layout
         });
     }
 
