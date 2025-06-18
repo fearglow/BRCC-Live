@@ -182,6 +182,26 @@
     background-color: #218838;
 }
 
+/* Booking list table */
+.booking-table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+.booking-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.booking-list-table th,
+.booking-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.booking-list-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .campsite-name {
