@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<phpunit bootstrap="tests/bootstrap.php"
+         colors="true"
+         backupGlobals="false">
+    <php>
+        <env name="WP_TESTS_DIR" value="/tmp/wordpress-tests-lib"/>
+        <env name="WP_CONTENT_DIR" value="/tmp/wordpress/wp-content"/>
+        <env name="WP_PLUGIN_DIR" value="/tmp/wordpress/wp-content/plugins"/>
+    </php>
+    <testsuites>
+        <testsuite name="plugins">
+            <directory prefix="test-" suffix=".php">./wp-content/plugins</directory>
+        </testsuite>
+        <testsuite name="themes">
+            <directory prefix="test-" suffix=".php">./wp-content/themes</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
