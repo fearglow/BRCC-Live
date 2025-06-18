@@ -176,7 +176,7 @@ function fetch_bookings() {
         LEFT JOIN {$wpdb->postmeta} pm_guest_title ON oim.order_item_id = pm_guest_title.post_id AND pm_guest_title.meta_key = 'guest_title'
         LEFT JOIN {$wpdb->postmeta} pm_booking_post_type ON oim.order_item_id = pm_booking_post_type.post_id AND pm_booking_post_type.meta_key = 'st_booking_post_type'
         LEFT JOIN {$wpdb->postmeta} pm_starttime ON oim.order_item_id = pm_starttime.post_id AND pm_starttime.meta_key = 'starttime'
-        WHERE oim.status IN ('complete','wc-completed')
+        WHERE oim.status IN ('complete','wc-completed','pending','incomplete','wc-cancelled','cancelled')
     ";
     $rows = $wpdb->get_results($query, ARRAY_A);
     if (!$rows) return array();

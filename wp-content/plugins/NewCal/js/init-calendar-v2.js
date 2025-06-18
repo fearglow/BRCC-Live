@@ -142,13 +142,12 @@ jQuery(document).ready(function($) {
                     row.find('.day-cell[data-day="' + d + '"]').remove();
                 }
 
+
                 var endCell = row.find('.day-cell[data-day="' + endDay + '"]');
                 var $indicator = $('<div class="checkout-half-pill"></div>')
                     .css('background-color', getStatusColor(booking.status));
                 endCell.addClass('checkout-cell').append($indicator);
             }
-
-            // Final day marker improved with partial color
         });
     }
 
