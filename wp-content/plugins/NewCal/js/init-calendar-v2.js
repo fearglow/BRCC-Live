@@ -49,8 +49,11 @@ jQuery(document).ready(function($) {
                     // Store total sites for availability calc
                     totalSites = parseInt(response.data.total_sites) || 0;
 
-                    // Render pills
+                    // Render calendar pills
                     renderBookings(response.data.bookings, m, y);
+
+                    // Render table view
+                    renderBookingsTable(response.data.bookings);
 
                     // Highlight today
                     highlightToday(m, y);
@@ -77,12 +80,13 @@ jQuery(document).ready(function($) {
             if (!row.length) return;
 
             // Convert date strings to local dates
-            var checkIn  = new Date((booking.start || '').replace(/-/g, '/'));
-            var checkOut = new Date((booking.end   || '').replace(/-/g, '/'));
-            if (isNaN(checkIn) || isNaN(checkOut)) return;
+            var checkIn       = new Date((booking.start || '').replace(/-/g, '/'));
+            var displayEnd    = new Date((booking.display_end || '').replace(/-/g, '/'));
+            var checkOutPlus  = new Date((booking.end || '').replace(/-/g, '/'));
+            if (isNaN(checkIn) || isNaN(displayEnd)) return;
 
             var startDay = checkIn.getDate();
-            var endDay   = checkOut.getDate();
+            var endDay   = displayEnd.getDate();
 
             // If it starts in previous month, clamp to day=1
             var isPrevMonth = (checkIn.getMonth() + 1 < m) || (checkIn.getFullYear() < y);
@@ -90,7 +94,7 @@ jQuery(document).ready(function($) {
                 startDay = 1;
             }
             // If it ends in next month, clamp to last day
-            var isNextMonth = (checkOut.getMonth() + 1 > m) || (checkOut.getFullYear() > y);
+            var isNextMonth = (checkOutPlus.getMonth() + 1 > m) || (checkOutPlus.getFullYear() > y);
             if (isNextMonth) {
                 endDay = new Date(y, m, 0).getDate(); // last day
             }
@@ -126,16 +130,25 @@ jQuery(document).ready(function($) {
 
             // Place pill
             var startCell = row.find('.day-cell[data-day="' + startDay + '"]');
-            startCell.attr('colspan', spanDays).append(pill);
 
-            // Remove spanned cells
-            for (var d = startDay + 1; d < endDay; d++) {
-				row.find('.day-cell[data-day="' + d + '"]').remove();
-			}
+            if (isNextMonth) {
+                startCell.attr('colspan', spanDays).append(pill);
+                for (var d = startDay + 1; d <= endDay; d++) {
+                    row.find('.day-cell[data-day="' + d + '"]').remove();
+                }
+            } else {
+                startCell.attr('colspan', Math.max(spanDays - 1, 1)).append(pill);
+                for (var d = startDay + 1; d < endDay; d++) {
+                    row.find('.day-cell[data-day="' + d + '"]').remove();
+                }
 
-            // Mark final day with slash
-            var lastDayCell = row.find('.day-cell[data-day="' + endDay + '"]');
-			lastDayCell.addClass('checkout-day');
+                var endCell = row.find('.day-cell[data-day="' + endDay + '"]');
+                var $indicator = $('<div class="checkout-half-pill"></div>')
+                    .css('background-color', getStatusColor(booking.status));
+                endCell.addClass('checkout-cell').append($indicator);
+            }
+
+            // Final day marker improved with partial color
         });
     }
 
@@ -257,6 +270,34 @@ jQuery(document).ready(function($) {
                 .find('.day-cell[data-day="' + d + '"]')
                 .addClass('today');
         }
+    }
+
+    // Render table listing of bookings
+    function renderBookingsTable(bookings) {
+        if (!Array.isArray(bookings)) return;
+        var $container = $('#booking-table-container');
+        if (!$container.length) return;
+
+        var $table = $('<table class="booking-list-table"></table>');
+        var $thead = $('<thead><tr><th>Site</th><th>Customer</th><th>Check-In</th><th>Check-Out</th><th>Status</th></tr></thead>');
+        var $tbody = $('<tbody></tbody>');
+
+        bookings.forEach(function(b) {
+            var $tr = $('<tr></tr>');
+            $tr.append('<td>' + (b.site || '') + '</td>');
+            $tr.append('<td>' + (b.customer || '') + '</td>');
+            $tr.append('<td>' + (b.start || '') + '</td>');
+            $tr.append('<td>' + (b.display_end || '') + '</td>');
+            var $status = $('<td></td>')
+                .text(getStatusText(b.status))
+                .css('background-color', getStatusColor(b.status))
+                .css('color', '#fff');
+            $tr.append($status);
+            $tbody.append($tr);
+        });
+
+        $table.append($thead).append($tbody);
+        $container.empty().append($table);
     }
 
     // 10) Update availability counts per day

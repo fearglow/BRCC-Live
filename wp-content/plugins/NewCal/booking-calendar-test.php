@@ -67,6 +67,9 @@ function custom_booking_calendar_v2_shortcode() {
         <div id="debug-entries">Loading...</div>
     </div>
 
+    <!-- Table view of bookings -->
+    <div id="booking-table-container" class="booking-table-container"></div>
+
     <!-- Simple custom modal for booking details (No Bootstrap) -->
     <div class="calendar-modal" id="bookingModal">
       <div class="calendar-modal-content">
@@ -215,7 +218,8 @@ function fetch_bookings() {
         $booking = array(
             'id'        => $row['id'],
             'site'      => $siteName,
-            'start'     => $row['check_in'],
+            // Normalize start date to yyyy-mm-dd for consistent parsing
+            'start'     => date('Y-m-d', strtotime($row['check_in'])),
             'end'       => $adjusted_checkout,
             'display_end'=> $row['check_out'],
             'adult_number' => $row['adult_number'],
@@ -252,21 +256,20 @@ function fetch_bookings() {
 // 7) Filter by month
 function fetch_bookings_for_month($month, $year) {
     $all = fetch_bookings();
-    $filtered = array_filter($all, function($b) use ($month, $year) {
+
+    $monthStart = strtotime(sprintf('%04d-%02d-01', $year, $month));
+    $monthEnd   = strtotime(date('Y-m-t 23:59:59', $monthStart));
+
+    $filtered = array_filter($all, function($b) use ($monthStart, $monthEnd) {
         $start_ts = strtotime($b['start']);
         $end_ts   = strtotime($b['end']);
         if (!$start_ts || !$end_ts) return false;
-        $start_m = date('m', $start_ts);
-        $start_y = date('Y', $start_ts);
-        $end_m   = date('m', $end_ts);
-        $end_y   = date('Y', $end_ts);
 
-        return (
-            ($start_m == $month && $start_y == $year) ||
-            ($end_m   == $month && $end_y   == $year)
-        );
+        return ($start_ts <= $monthEnd && $end_ts >= $monthStart);
     });
-    return $filtered;
+
+    // Reindex array so JSON is encoded as an array, not an object
+    return array_values($filtered);
 }
 
 // 8) AJAX: load_calendar_v2 => returns [html, bookings, debugHtml]
