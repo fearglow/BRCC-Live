@@ -49,8 +49,11 @@ jQuery(document).ready(function($) {
                     // Store total sites for availability calc
                     totalSites = parseInt(response.data.total_sites) || 0;
 
-                    // Render pills
+                    // Render calendar pills
                     renderBookings(response.data.bookings, m, y);
+
+                    // Render table view
+                    renderBookingsTable(response.data.bookings);
 
                     // Highlight today
                     highlightToday(m, y);
@@ -133,9 +136,7 @@ jQuery(document).ready(function($) {
 				row.find('.day-cell[data-day="' + d + '"]').remove();
 			}
 
-            // Mark final day with slash
-            var lastDayCell = row.find('.day-cell[data-day="' + endDay + '"]');
-			lastDayCell.addClass('checkout-day');
+            // Final day marker removed for cleaner layout
         });
     }
 
@@ -257,6 +258,34 @@ jQuery(document).ready(function($) {
                 .find('.day-cell[data-day="' + d + '"]')
                 .addClass('today');
         }
+    }
+
+    // Render table listing of bookings
+    function renderBookingsTable(bookings) {
+        if (!Array.isArray(bookings)) return;
+        var $container = $('#booking-table-container');
+        if (!$container.length) return;
+
+        var $table = $('<table class="booking-list-table"></table>');
+        var $thead = $('<thead><tr><th>Site</th><th>Customer</th><th>Check-In</th><th>Check-Out</th><th>Status</th></tr></thead>');
+        var $tbody = $('<tbody></tbody>');
+
+        bookings.forEach(function(b) {
+            var $tr = $('<tr></tr>');
+            $tr.append('<td>' + (b.site || '') + '</td>');
+            $tr.append('<td>' + (b.customer || '') + '</td>');
+            $tr.append('<td>' + (b.start || '') + '</td>');
+            $tr.append('<td>' + (b.display_end || '') + '</td>');
+            var $status = $('<td></td>')
+                .text(getStatusText(b.status))
+                .css('background-color', getStatusColor(b.status))
+                .css('color', '#fff');
+            $tr.append($status);
+            $tbody.append($tr);
+        });
+
+        $table.append($thead).append($tbody);
+        $container.empty().append($table);
     }
 
     // 10) Update availability counts per day
