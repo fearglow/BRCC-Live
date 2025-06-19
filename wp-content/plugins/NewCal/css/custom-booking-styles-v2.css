@@ -30,6 +30,13 @@
 }
 .booking-list-table {
     font-family: var(--font-family);
+    margin-bottom: 1rem; /* optional spacing */
+    overflow-x: auto;    /* if you want horizontal scroll in a parent container */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.booking-list-table {
+    font-family: Arial, sans-serif;
     font-size: 14px;
 }
 .header-day, .day-cell {
@@ -58,6 +65,11 @@
 
 .day-cell.booked-cell {
     background-color: var(--booked-bg);
+    background-color: #f6fff8;
+}
+
+.day-cell.booked-cell {
+    background-color: #ffeaea;
     padding: 0;
 }
 
@@ -66,6 +78,22 @@
 }
 .header-day.weekend {
     background-color: var(--weekend-header-bg);
+    background-color: #fafafa;
+}
+.header-day.weekend {
+    background-color: #f1f1f1;
+}
+
+.calendar-grid tbody tr:nth-child(even) .day-cell,
+.calendar-grid tbody tr:nth-child(even) .campsite-name {
+    background-color: #fcfcfc;
+}
+
+.weekend {
+    background-color: #fafafa;
+}
+.header-day.weekend {
+    background-color: #f1f1f1;
 }
 
 .calendar-grid tbody tr:nth-child(even) .day-cell,
