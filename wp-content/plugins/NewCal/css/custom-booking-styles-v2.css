@@ -39,6 +39,19 @@
 
 .day-cell.booked-cell {
     background-color: #ffeaea;
+    padding: 0;
+}
+
+.weekend {
+    background-color: #fafafa;
+}
+.header-day.weekend {
+    background-color: #f1f1f1;
+}
+
+.calendar-grid tbody tr:nth-child(even) .day-cell,
+.calendar-grid tbody tr:nth-child(even) .campsite-name {
+    background-color: #fcfcfc;
 }
 
 .weekend {
@@ -78,15 +91,19 @@
     white-space: nowrap;
     padding: 3px 5px;
     width: 100%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     line-height: 1.2;
     box-sizing: border-box;
     position: relative;
     cursor: pointer;
+    height: 100%;
 }
 .checkout-cell {
     position: relative;
+    padding: 0;
 }
 .checkout-half-pill {
     position: absolute;
@@ -96,6 +113,7 @@
     height: 100%;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+    pointer-events: none;
 }
 .arrow-left {
     margin-right: 5px;

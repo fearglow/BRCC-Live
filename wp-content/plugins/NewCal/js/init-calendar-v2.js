@@ -164,7 +164,10 @@ jQuery(document).ready(function($) {
                     .css('background-color', getStatusColor(booking.status));
                 endCell.addClass('checkout-cell booked-cell')
                     .removeClass('available-cell')
+                    .css('border-left', '0')
                     .append($indicator);
+
+                startCell.css('border-right', '0');
             }
 
             // Final day marker improved with partial color
