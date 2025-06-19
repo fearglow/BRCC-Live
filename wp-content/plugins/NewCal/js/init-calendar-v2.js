@@ -1,4 +1,30 @@
- var totalSites = 0;
+jQuery(document).ready(function($) {
+    var month = parseInt($('#custom-calendar-v2').data('month'));
+    var year  = parseInt($('#custom-calendar-v2').data('year'));
+
+    // 1) Load when page first loads
+    loadCalendar(month, year);
+
+    // 2) Prev/Next
+    $('#prev-month').on('click', function() {
+        month--;
+        if (month < 1) {
+            month = 12;
+            year--;
+        }
+        loadCalendar(month, year);
+    });
+    $('#next-month').on('click', function() {
+        month++;
+        if (month > 12) {
+            month = 1;
+            year++;
+        }
+        loadCalendar(month, year);
+    });
+
+    // 3) loadCalendar AJAX
+    var totalSites = 0;
     function loadCalendar(m, y) {
         $.ajax({
             url: bookingData.ajax_url,
@@ -260,34 +286,6 @@
     }
 
     // Render table listing of bookings
-    function renderBookingsTable(bookings) {
-        if (!Array.isArray(bookings)) return;
-        var $container = $('#booking-table-container');
-        if (!$container.length) return;
-
-        var $table = $('<table class="booking-list-table"></table>');
-        var $thead = $('<thead><tr><th>Site</th><th>Customer</th><th>Check-In</th><th>Check-Out</th><th>Status</th></tr></thead>');
-        var $tbody = $('<tbody></tbody>');
-
-        bookings.forEach(function(b) {
-            var $tr = $('<tr></tr>');
-            $tr.append('<td>' + (b.site || '') + '</td>');
-            $tr.append('<td>' + (b.customer || '') + '</td>');
-            $tr.append('<td>' + (b.start || '') + '</td>');
-            $tr.append('<td>' + (b.display_end || '') + '</td>');
-            var $status = $('<td></td>')
-                .text(getStatusText(b.status))
-                .css('background-color', getStatusColor(b.status))
-                .css('color', '#fff');
-            $tr.append($status);
-            $tbody.append($tr);
-        });
-
-        $table.append($thead).append($tbody);
-        $container.empty().append($table);
-    }
-
-// Render table listing of bookings
     function renderBookingsTable(bookings) {
         if (!Array.isArray(bookings)) return;
         var $container = $('#booking-table-container');
