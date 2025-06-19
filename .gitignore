@@ -46,4 +46,6 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
-*.zip
+
+wp-content/backups-dup-pro/20240125_betsieriver_vanilla_68df7740f67da6797994_20240125030032_archive.zip
+wp-content/themes/traveler/js/locales/bootstrap-datepicker..zip
