@@ -52,14 +52,16 @@ function custom_booking_calendar_v2_shortcode() {
     <!-- Calendar Controls -->
     <div class="calendar-controls">
         <button id="prev-month">Previous</button>
-        <h2 id="calendar-header" style="display:inline-block; margin:0 10px;"><?php echo date('F Y'); ?></h2>
+        <h2 id="calendar-header"><?php echo date('F Y'); ?></h2>
         <button id="next-month">Next</button>
     </div>
 
     <!-- Table placeholder -->
-    <div id="custom-calendar-v2"
-         data-month="<?php echo date('m'); ?>"
-         data-year="<?php echo date('Y'); ?>"></div>
+    <div class="calendar-wrapper">
+        <div id="custom-calendar-v2"
+             data-month="<?php echo date('m'); ?>"
+             data-year="<?php echo date('Y'); ?>"></div>
+    </div>
 
     <!-- Debug container (will be dynamically filled) -->
     <div id="debug-output" class="debug-output">
@@ -304,14 +306,18 @@ function generate_calendar_v2_html($month, $year, $campsites, $bookings) {
       <thead>
         <tr>
           <th class="empty-header-cell"></th>
-          <?php for ($d = 1; $d <= $num_days; $d++): ?>
-            <th class="header-day"><?php echo $d; ?></th>
+          <?php for ($d = 1; $d <= $num_days; $d++):
+            $ts = mktime(0, 0, 0, $month, $d, $year);
+            $weekend = in_array(date('N', $ts), array(6, 7)) ? ' weekend' : ''; ?>
+            <th class="header-day<?php echo $weekend; ?>"><?php echo $d; ?></th>
           <?php endfor; ?>
         </tr>
         <tr class="availability-row">
           <th class="availability-label">Available</th>
-          <?php for ($d = 1; $d <= $num_days; $d++): ?>
-            <th class="availability-cell" data-day="<?php echo $d; ?>"></th>
+          <?php for ($d = 1; $d <= $num_days; $d++):
+            $ts = mktime(0, 0, 0, $month, $d, $year);
+            $weekend = in_array(date('N', $ts), array(6, 7)) ? ' weekend' : ''; ?>
+            <th class="availability-cell<?php echo $weekend; ?>" data-day="<?php echo $d; ?>"></th>
           <?php endfor; ?>
         </tr>
       </thead>
@@ -319,8 +325,10 @@ function generate_calendar_v2_html($month, $year, $campsites, $bookings) {
         <?php foreach ($campsites as $site): ?>
           <tr class="calendar-row" data-site="<?php echo esc_attr($site['site_code']); ?>">
             <td class="campsite-name"><?php echo esc_html($site['site_code']); ?></td>
-            <?php for ($d = 1; $d <= $num_days; $d++): ?>
-              <td class="day-cell available-cell" data-day="<?php echo $d; ?>"></td>
+            <?php for ($d = 1; $d <= $num_days; $d++):
+              $ts = mktime(0, 0, 0, $month, $d, $year);
+              $weekend = in_array(date('N', $ts), array(6, 7)) ? ' weekend' : ''; ?>
+              <td class="day-cell available-cell<?php echo $weekend; ?>" data-day="<?php echo $d; ?>"></td>
             <?php endfor; ?>
           </tr>
         <?php endforeach; ?>
