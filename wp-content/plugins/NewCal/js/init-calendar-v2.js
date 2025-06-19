@@ -78,7 +78,13 @@ jQuery(document).ready(function($) {
         $('.calendar-row .day-cell').addClass('available-cell').removeClass('booked-cell');
 
         bookings.forEach(function(booking) {
-            var allowedStatuses = ['complete', 'wc-completed', 'wp-completed'];
+            var allowedStatuses = [
+                'complete',
+                'wc-completed',
+                'wp-completed',
+                'Cash Payment Due',
+                'Paid Cash'
+            ];
             if (allowedStatuses.indexOf(booking.status) === -1) return;
             var siteKey = (booking.site || '').trim();
             var row = $('.calendar-row[data-site="' + siteKey + '"]');
@@ -322,7 +328,13 @@ jQuery(document).ready(function($) {
             counts[d] = 0;
         }
         bookings.forEach(function(b) {
-            var allowedStatuses = ['complete', 'wc-completed', 'wp-completed'];
+            var allowedStatuses = [
+                'complete',
+                'wc-completed',
+                'wp-completed',
+                'Cash Payment Due',
+                'Paid Cash'
+            ];
             if (allowedStatuses.indexOf(b.status) === -1) return;
             var start = new Date((b.start || '').replace(/-/g, '/'));
             var end   = new Date((b.end   || '').replace(/-/g, '/'));
