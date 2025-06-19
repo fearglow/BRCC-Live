@@ -53,6 +53,18 @@
 .calendar-grid tbody tr:nth-child(even) .campsite-name {
     background-color: #fcfcfc;
 }
+
+.weekend {
+    background-color: #fafafa;
+}
+.header-day.weekend {
+    background-color: #f1f1f1;
+}
+
+.calendar-grid tbody tr:nth-child(even) .day-cell,
+.calendar-grid tbody tr:nth-child(even) .campsite-name {
+    background-color: #fcfcfc;
+}
 .campsite-name {
     background-color: #f9f9f9;
     text-align: left;
