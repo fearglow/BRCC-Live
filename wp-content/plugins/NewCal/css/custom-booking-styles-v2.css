@@ -1,9 +1,35 @@
+:root {
+    --primary-color: #007bff;
+    --primary-hover: #0056b3;
+    --success-color: #28a745;
+    --success-hover: #218838;
+    --available-bg: #f6fff8;
+    --booked-bg: #ffeaea;
+    --weekend-bg: #fafafa;
+    --weekend-header-bg: #f1f1f1;
+    --font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --text-color: #333;
+}
+
+.calendar-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
 /* TABLE LAYOUT */
 .calendar-grid {
     width: 100%;
     border-collapse: collapse;
     table-layout: auto;
     display: table;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: var(--text-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.booking-list-table {
+    font-family: var(--font-family);
     margin-bottom: 1rem; /* optional spacing */
     overflow-x: auto;    /* if you want horizontal scroll in a parent container */
     font-family: Arial, sans-serif;
@@ -34,6 +60,11 @@
 
 /* Highlight availability */
 .day-cell.available-cell {
+    background-color: var(--available-bg);
+}
+
+.day-cell.booked-cell {
+    background-color: var(--booked-bg);
     background-color: #f6fff8;
 }
 
@@ -43,6 +74,10 @@
 }
 
 .weekend {
+    background-color: var(--weekend-bg);
+}
+.header-day.weekend {
+    background-color: var(--weekend-header-bg);
     background-color: #fafafa;
 }
 .header-day.weekend {
@@ -132,13 +167,26 @@
 /* End day marker removed for cleaner look */
 
 /* CONTROLS */
+#calendar-header {
+    flex-grow: 1;
+    text-align: center;
+#calendar-header {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
 .calendar-controls {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
     margin-bottom: 15px;
 }
 .calendar-controls button {
-    background-color: #007bff;
+    background-color: var(--primary-color);
     color: #ffffff;
     border: none;
     padding: 8px 12px;
@@ -147,13 +195,7 @@
     cursor: pointer;
 }
 .calendar-controls button:hover {
-    background-color: #0056b3;
-}
-#calendar-header {
-    flex-grow: 1;
-    text-align: center;
-    font-size: 18px;
-    margin: 0;
+    background-color: var(--primary-hover);
 }
 
 /* DEBUG AREA */
@@ -216,7 +258,7 @@
 }
 .calendar-modal-header {
     padding: 15px;
-    background-color: #007bff;
+    background-color: var(--primary-color);
     color: #fff;
     font-size: 18px;
     border-top-left-radius: 6px;
@@ -227,7 +269,7 @@
 }
 .calendar-modal-paybtn {
     display: inline-block;
-    background-color: #28a745;
+    background-color: var(--success-color);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -236,7 +278,7 @@
     margin-top: 10px;
 }
 .calendar-modal-paybtn:hover {
-    background-color: #218838;
+    background-color: var(--success-hover);
 }
 
 /* Booking list table */
@@ -267,6 +309,12 @@
     .booking-pill {
         font-size: 10px;
     }
+    .calendar-controls {
+        flex-direction: column;
+    }
+    #calendar-header {
+        margin: 5px 0;
+    }
     .calendar-modal-content {
         width: 90%;
         margin-top: 10%;
@@ -281,6 +329,9 @@
     }
     .header-day, .day-cell {
         padding: 5px;
+    }
+    #calendar-header {
+        font-size: 16px;
     }
     .calendar-modal-content {
         width: 95%;

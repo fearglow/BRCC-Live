@@ -52,14 +52,16 @@ function custom_booking_calendar_v2_shortcode() {
     <!-- Calendar Controls -->
     <div class="calendar-controls">
         <button id="prev-month">Previous</button>
-        <h2 id="calendar-header" style="display:inline-block; margin:0 10px;"><?php echo date('F Y'); ?></h2>
+        <h2 id="calendar-header"><?php echo date('F Y'); ?></h2>
         <button id="next-month">Next</button>
     </div>
 
     <!-- Table placeholder -->
-    <div id="custom-calendar-v2"
-         data-month="<?php echo date('m'); ?>"
-         data-year="<?php echo date('Y'); ?>"></div>
+    <div class="calendar-wrapper">
+        <div id="custom-calendar-v2"
+             data-month="<?php echo date('m'); ?>"
+             data-year="<?php echo date('Y'); ?>"></div>
+    </div>
 
     <!-- Debug container (will be dynamically filled) -->
     <div id="debug-output" class="debug-output">
@@ -297,6 +299,10 @@ add_action('wp_ajax_nopriv_load_calendar_v2', 'load_calendar_v2_ajax');
 
 // build table
 function generate_calendar_v2_html($month, $year, $campsites, $bookings) {
+    // Cast parameters and ensure valid ranges to avoid date warnings
+    $month = max(1, min(12, intval($month)));
+    $year  = intval($year) ?: intval(date('Y'));
+
     $num_days = cal_days_in_month(CAL_GREGORIAN, $month, $year);
     $total_sites = count($campsites);
     ob_start(); ?>
