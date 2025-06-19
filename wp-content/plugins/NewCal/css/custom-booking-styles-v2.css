@@ -6,6 +6,12 @@
     display: table;
     margin-bottom: 1rem; /* optional spacing */
     overflow-x: auto;    /* if you want horizontal scroll in a parent container */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.booking-list-table {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 .header-day, .day-cell {
     border: 1px solid #ddd;
@@ -15,6 +21,12 @@
     position: relative;
     white-space: nowrap;
 }
+.calendar-grid thead th {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #f8f8f8;
+}
 .day-cell {
     height: 32px;
     box-sizing: border-box;
@@ -22,11 +34,23 @@
 
 /* Highlight availability */
 .day-cell.available-cell {
-    background-color: #e8f5e9;
+    background-color: #f6fff8;
 }
 
 .day-cell.booked-cell {
     background-color: #ffeaea;
+}
+
+.weekend {
+    background-color: #fafafa;
+}
+.header-day.weekend {
+    background-color: #f1f1f1;
+}
+
+.calendar-grid tbody tr:nth-child(even) .day-cell,
+.calendar-grid tbody tr:nth-child(even) .campsite-name {
+    background-color: #fcfcfc;
 }
 .campsite-name {
     background-color: #f9f9f9;
@@ -59,6 +83,7 @@
     line-height: 1.2;
     box-sizing: border-box;
     position: relative;
+    cursor: pointer;
 }
 .checkout-cell {
     position: relative;
