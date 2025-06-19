@@ -299,6 +299,10 @@ add_action('wp_ajax_nopriv_load_calendar_v2', 'load_calendar_v2_ajax');
 
 // build table
 function generate_calendar_v2_html($month, $year, $campsites, $bookings) {
+    // Cast parameters and ensure valid ranges to avoid date warnings
+    $month = max(1, min(12, intval($month)));
+    $year  = intval($year) ?: intval(date('Y'));
+
     $num_days = cal_days_in_month(CAL_GREGORIAN, $month, $year);
     $total_sites = count($campsites);
     ob_start(); ?>
